@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">F76 Checker</string>
+    <color name="pip_bg">#0B140D</color>
+    <color name="pip_green">#3CFF7A</color>
+    <style name="Theme.F76Checker" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/pip_bg</item>
+        <item name="android:statusBarColor">@color/pip_bg</item>
+        <item name="android:navigationBarColor">@color/pip_bg</item>
+    </style>
+</resources>

@@ -1,0 +1,2408 @@
+{
+ "category": "weapons",
+ "items": [
+  {
+   "id": "enclave_plasma_gun",
+   "section": "pistols_rifles",
+   "en": "Enclave plasma gun",
+   "es": "Arma de plasma del Enclave",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/55/FO76_Enclave_plasma_gun.png/revision/latest/scale-to-width-down/256?cb=20190717064619",
+   "wiki": "https://fallout.fandom.com/wiki/Enclave_plasma_gun"
+  },
+  {
+   "id": "laser_gun",
+   "section": "pistols_rifles",
+   "en": "Laser gun",
+   "es": "Arma láser",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/63/FO76_Laser_gun.png/revision/latest/scale-to-width-down/256?cb=20200220214234",
+   "wiki": "https://fallout.fandom.com/wiki/Laser_gun_(Fallout_76)"
+  },
+  {
+   "id": "pipe_bolt_action",
+   "section": "pistols_rifles",
+   "en": "Pipe bolt-action",
+   "es": "Cerrojo de tubo",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/c7/FO76_Pipe_bolt-action.png/revision/latest/scale-to-width-down/256?cb=20200309211927",
+   "wiki": "https://fallout.fandom.com/wiki/Pipe_bolt-action_(Fallout_76)"
+  },
+  {
+   "id": "pipe_gun",
+   "section": "pistols_rifles",
+   "en": "Pipe gun",
+   "es": "Arma de tubo",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/f/fb/FO76_Pipe_gun.png/revision/latest/scale-to-width-down/256?cb=20190128055429",
+   "wiki": "https://fallout.fandom.com/wiki/Pipe_gun_(Fallout_76)"
+  },
+  {
+   "id": "pipe_revolver",
+   "section": "pistols_rifles",
+   "en": "Pipe revolver",
+   "es": "Revólver de tubo",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/9/96/FO76_Pipe_revolver.png/revision/latest/scale-to-width-down/256?cb=20190117081346",
+   "wiki": "https://fallout.fandom.com/wiki/Pipe_revolver_(Fallout_76)"
+  },
+  {
+   "id": "plasma_gun",
+   "section": "pistols_rifles",
+   "en": "Plasma gun",
+   "es": "Arma de plasma",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/b7/FO76_Plasma_Pistol.png/revision/latest/scale-to-width-down/256?cb=20251230103814",
+   "wiki": "https://fallout.fandom.com/wiki/Plasma_gun_(Fallout_76)"
+  },
+  {
+   "id": "ultracite_laser_gun",
+   "section": "pistols_rifles",
+   "en": "Ultracite laser gun",
+   "es": "Arma láser de ultracita",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/8/8e/FO76_Ultracite_laser_gun.png/revision/latest/scale-to-width-down/256?cb=20190717031329",
+   "wiki": "https://fallout.fandom.com/wiki/Ultracite_laser_gun"
+  },
+  {
+   "id": "44_pistol",
+   "section": "pistols",
+   "en": ".44 pistol",
+   "es": "Pistola del .44",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/1/13/44_pistol.png/revision/latest/scale-to-width-down/256?cb=20200314010044",
+   "wiki": "https://fallout.fandom.com/wiki/.44_pistol_(Fallout_76)"
+  },
+  {
+   "id": "10mm_pistol",
+   "section": "pistols",
+   "en": "10mm pistol",
+   "es": "Pistola de 10 mm",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/64/FO76_10mmPistol.png/revision/latest/scale-to-width-down/256?cb=20250122164106",
+   "wiki": "https://fallout.fandom.com/wiki/10mm_pistol_(Fallout_76)"
+  },
+  {
+   "id": "alien_blaster",
+   "section": "pistols",
+   "en": "Alien blaster",
+   "es": "Bláster alienígena",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/7/71/Alien_blaster_pistol.png/revision/latest/scale-to-width-down/256?cb=20210120215737",
+   "wiki": "https://fallout.fandom.com/wiki/Alien_blaster_(Fallout_76)"
+  },
+  {
+   "id": "black_powder_blunderbuss",
+   "section": "pistols",
+   "en": "Black powder blunderbuss",
+   "es": "Trabuco de pólvora negra",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/7/7b/76Blunderbuss.png/revision/latest/scale-to-width-down/256?cb=20200312234919",
+   "wiki": "https://fallout.fandom.com/wiki/Black_powder_blunderbuss"
+  },
+  {
+   "id": "black_powder_pistol",
+   "section": "pistols",
+   "en": "Black powder pistol",
+   "es": "Pistola de pólvora negra",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/4c/Black_Powder_Gun.png/revision/latest/scale-to-width-down/256?cb=20200312233704",
+   "wiki": "https://fallout.fandom.com/wiki/Black_powder_pistol"
+  },
+  {
+   "id": "crusader_pistol",
+   "section": "pistols",
+   "en": "Crusader pistol",
+   "es": "Pistola de cruzado",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/1/1d/FO76_Chimera_Pistol_Standard.png/revision/latest/scale-to-width-down/256?cb=20210702025730",
+   "wiki": "https://fallout.fandom.com/wiki/Crusader_pistol"
+  },
+  {
+   "id": "flare_gun",
+   "section": "pistols",
+   "en": "Flare gun",
+   "es": "Pistola de bengalas",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/6d/FO76_Flare_gun.png/revision/latest/scale-to-width-down/256?cb=20190223043321",
+   "wiki": "https://fallout.fandom.com/wiki/Flare_gun_(Fallout_76)"
+  },
+  {
+   "id": "gamma_gun",
+   "section": "pistols",
+   "en": "Gamma gun",
+   "es": "Arma gamma",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/bc/FO76_Gamma_gun.png/revision/latest/scale-to-width-down/256?cb=20190214211416",
+   "wiki": "https://fallout.fandom.com/wiki/Gamma_gun_(Fallout_76)"
+  },
+  {
+   "id": "gauss_pistol",
+   "section": "pistols",
+   "en": "Gauss pistol",
+   "es": "Pistola Gauss",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/8/80/F76WL_Gauss_pistol.png/revision/latest/scale-to-width-down/256?cb=20201122231459",
+   "wiki": "https://fallout.fandom.com/wiki/Gauss_pistol_(Wastelanders)"
+  },
+  {
+   "id": "salvaged_assaultron_head",
+   "section": "pistols",
+   "en": "Salvaged Assaultron head",
+   "es": "Cabeza de Asaltrón recuperada",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/3a/FO76_Salvaged_assaultron_head.png/revision/latest/scale-to-width-down/256?cb=20210306170515",
+   "wiki": "https://fallout.fandom.com/wiki/Salvaged_Assaultron_head_(Fallout_76)"
+  },
+  {
+   "id": "single_action_revolver",
+   "section": "pistols",
+   "en": "Single action revolver",
+   "es": "Revólver de acción simple",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/f/fd/FO76_Single_action_revolver.png/revision/latest/scale-to-width-down/256?cb=20240228041140",
+   "wiki": "https://fallout.fandom.com/wiki/Single_action_revolver"
+  },
+  {
+   "id": "western_revolver",
+   "section": "pistols",
+   "en": "Western revolver",
+   "es": "Revólver del Oeste",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/ce/WesternPistol.png/revision/latest/scale-to-width-down/256?cb=20240228041722",
+   "wiki": "https://fallout.fandom.com/wiki/Western_revolver_(Fallout_76)"
+  },
+  {
+   "id": "10mm_submachine_gun",
+   "section": "rifles",
+   "en": "10mm submachine gun",
+   "es": "Subfusil de 10 mm",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/f/fe/FO76_10mmSMG.png/revision/latest/scale-to-width-down/256?cb=20200315164127",
+   "wiki": "https://fallout.fandom.com/wiki/10mm_submachine_gun_(Fallout_76)"
+  },
+  {
+   "id": "alien_disintegrator",
+   "section": "rifles",
+   "en": "Alien disintegrator",
+   "es": "Desintegrador alienígena",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/9/9a/FO76_weapon_aliendisintegrator01.png/revision/latest/scale-to-width-down/256?cb=20220130192152",
+   "wiki": "https://fallout.fandom.com/wiki/Alien_disintegrator_(Fallout_76)"
+  },
+  {
+   "id": "assault_rifle",
+   "section": "rifles",
+   "en": "Assault rifle",
+   "es": "Rifle de asalto",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/57/FO76_Assault_rifle.png/revision/latest/scale-to-width-down/256?cb=20210325182538",
+   "wiki": "https://fallout.fandom.com/wiki/Assault_rifle_(Fallout_76)"
+  },
+  {
+   "id": "black_powder_rifle",
+   "section": "rifles",
+   "en": "Black powder rifle",
+   "es": "Rifle de pólvora negra",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/d/db/BlackPowderRifle.png/revision/latest/scale-to-width-down/256?cb=20200312234450",
+   "wiki": "https://fallout.fandom.com/wiki/Black_powder_rifle"
+  },
+  {
+   "id": "combat_rifle",
+   "section": "rifles",
+   "en": "Combat rifle",
+   "es": "Rifle de combate",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/c1/FO76_Combat_rifle.png/revision/latest/scale-to-width-down/256?cb=20190128085006",
+   "wiki": "https://fallout.fandom.com/wiki/Combat_rifle_(Fallout_76)"
+  },
+  {
+   "id": "the_dragon",
+   "section": "rifles",
+   "en": "The Dragon",
+   "es": "El dragón",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/59/Fo76_The_Dragon.png/revision/latest/scale-to-width-down/256?cb=20190929155023",
+   "wiki": "https://fallout.fandom.com/wiki/The_Dragon"
+  },
+  {
+   "id": "the_fixer",
+   "section": "rifles",
+   "en": "The Fixer",
+   "es": "El arreglador",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/1/19/FO76WA_The_Fixer.png/revision/latest/scale-to-width-down/256?cb=20190412024059",
+   "wiki": "https://fallout.fandom.com/wiki/The_Fixer"
+  },
+  {
+   "id": "gauss_rifle",
+   "section": "rifles",
+   "en": "Gauss rifle",
+   "es": "Cañón Gauss",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/01/FO76_Gauss_rifle.png/revision/latest/scale-to-width-down/256?cb=20190215042709",
+   "wiki": "https://fallout.fandom.com/wiki/Gauss_rifle_(Fallout_76)"
+  },
+  {
+   "id": "handmade_rifle",
+   "section": "rifles",
+   "en": "Handmade rifle",
+   "es": "Rifle artesanal",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/e/e7/FO4NW_Handmade_rifle.png/revision/latest/scale-to-width-down/256?cb=20260911104005",
+   "wiki": "https://fallout.fandom.com/wiki/Handmade_rifle_(Fallout_76)"
+  },
+  {
+   "id": "hunting_rifle",
+   "section": "rifles",
+   "en": "Hunting rifle",
+   "es": "Rifle de caza",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/43/FO76_Hunting_rifle.png/revision/latest/scale-to-width-down/256?cb=20190304050228",
+   "wiki": "https://fallout.fandom.com/wiki/Hunting_rifle_(Fallout_76)"
+  },
+  {
+   "id": "lever_action_rifle",
+   "section": "rifles",
+   "en": "Lever action rifle",
+   "es": "Rifle de palanca",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/a/a2/FO4FH_Lever_action_rifle.png/revision/latest/scale-to-width-down/256?cb=20200313224204",
+   "wiki": "https://fallout.fandom.com/wiki/Lever_action_rifle_(Fallout_76)"
+  },
+  {
+   "id": "radium_rifle",
+   "section": "rifles",
+   "en": "Radium rifle",
+   "es": "Rifle de radio",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/3c/FO76_Radium_rifle.png/revision/latest/scale-to-width-down/256?cb=20190304050735",
+   "wiki": "https://fallout.fandom.com/wiki/Radium_rifle_(Fallout_76)"
+  },
+  {
+   "id": "railway_rifle",
+   "section": "rifles",
+   "en": "Railway rifle",
+   "es": "Rifle de clavos",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/58/FO76_Railway_rifle.png/revision/latest/scale-to-width-down/256?cb=20190212103746",
+   "wiki": "https://fallout.fandom.com/wiki/Railway_rifle_(Fallout_76)"
+  },
+  {
+   "id": "submachine_gun",
+   "section": "rifles",
+   "en": "Submachine gun",
+   "es": "Subfusil",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/32/FO76_Submachine_gun.png/revision/latest/scale-to-width-down/256?cb=20240227114942",
+   "wiki": "https://fallout.fandom.com/wiki/Submachine_gun_(Fallout_76)"
+  },
+  {
+   "id": "syringer",
+   "section": "rifles",
+   "en": "Syringer",
+   "es": "Inyector",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/2/21/FO76_Syringer.png/revision/latest/scale-to-width-down/256?cb=20190304043739",
+   "wiki": "https://fallout.fandom.com/wiki/Syringer_(Fallout_76)"
+  },
+  {
+   "id": "tesla_rifle",
+   "section": "rifles",
+   "en": "Tesla rifle",
+   "es": "Rifle Tesla",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/bd/FO76_Tesla_rifle.png/revision/latest/scale-to-width-down/256?cb=20200313220102",
+   "wiki": "https://fallout.fandom.com/wiki/Tesla_rifle_(Fallout_76)"
+  },
+  {
+   "id": "v63_laser_carbine",
+   "section": "rifles",
+   "en": "V63 laser carbine",
+   "es": "Carabina láser V63",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/d/d2/FO76MZ_V63_Laser_Carbine.webp/revision/latest/scale-to-width-down/256?cb=20240815014000",
+   "wiki": "https://fallout.fandom.com/wiki/V63_laser_carbine"
+  },
+  {
+   "id": "combat_shotgun",
+   "section": "shotguns",
+   "en": "Combat shotgun",
+   "es": "Escopeta de combate",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/c5/FO76_combat_shotgun.png/revision/latest/scale-to-width-down/256?cb=20190205104917",
+   "wiki": "https://fallout.fandom.com/wiki/Combat_shotgun_(Fallout_76)"
+  },
+  {
+   "id": "double_barrel_shotgun",
+   "section": "shotguns",
+   "en": "Double-barrel shotgun",
+   "es": "Escopeta de doble cañón",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/58/FO76_Double-barrel_shotgun.png/revision/latest/scale-to-width-down/256?cb=20210521130025",
+   "wiki": "https://fallout.fandom.com/wiki/Double-barrel_shotgun_(Fallout_76)"
+  },
+  {
+   "id": "gauss_shotgun",
+   "section": "shotguns",
+   "en": "Gauss shotgun",
+   "es": "Escopeta Gauss",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/1/1c/F76WL_Gauss_shotgun.png/revision/latest/scale-to-width-down/256?cb=20200423163101",
+   "wiki": "https://fallout.fandom.com/wiki/Gauss_shotgun"
+  },
+  {
+   "id": "pepper_shaker",
+   "section": "shotguns",
+   "en": "Pepper Shaker",
+   "es": "Pimentero",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/f/f9/F76SR_Pepper_Shaker.png/revision/latest/scale-to-width-down/256?cb=20210716214620",
+   "wiki": "https://fallout.fandom.com/wiki/Pepper_Shaker"
+  },
+  {
+   "id": "pump_action_shotgun",
+   "section": "shotguns",
+   "en": "Pump action shotgun",
+   "es": "Escopeta de corredera",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/b9/FO76_Pump-action_shotgun.png/revision/latest/scale-to-width-down/256?cb=20210117131040",
+   "wiki": "https://fallout.fandom.com/wiki/Pump_action_shotgun_(Fallout_76)"
+  },
+  {
+   "id": "bow",
+   "section": "bows",
+   "en": "Bow",
+   "es": "Arco",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/44/FO76_Bow.png/revision/latest/scale-to-width-down/256?cb=20200421190056",
+   "wiki": "https://fallout.fandom.com/wiki/Bow_(Wastelanders)"
+  },
+  {
+   "id": "compound_bow",
+   "section": "bows",
+   "en": "Compound bow",
+   "es": "Arco compuesto",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/9/9e/Compound_Bow.png/revision/latest/scale-to-width-down/256?cb=20200419165644",
+   "wiki": "https://fallout.fandom.com/wiki/Compound_bow_(Wastelanders)"
+  },
+  {
+   "id": "crossbow",
+   "section": "bows",
+   "en": "Crossbow",
+   "es": "Ballesta",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/e/e6/FO76_Crossbow.png/revision/latest/scale-to-width-down/256?cb=20191003045915",
+   "wiki": "https://fallout.fandom.com/wiki/Crossbow_(Fallout_76)"
+  },
+  {
+   "id": "50_cal_machine_gun",
+   "section": "heavy",
+   "en": ".50 cal machine gun",
+   "es": "Ametralladora del calibre .50",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/7/77/50Cal_Machine_Gun.png/revision/latest/scale-to-width-down/256?cb=20191127180820",
+   "wiki": "https://fallout.fandom.com/wiki/.50_cal_machine_gun"
+  },
+  {
+   "id": "cremator",
+   "section": "heavy",
+   "en": "Cremator",
+   "es": "Cremador",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/e/e8/Score_s16_weapons_cremator_l.webp/revision/latest/scale-to-width-down/256?cb=20240127220729",
+   "wiki": "https://fallout.fandom.com/wiki/Cremator"
+  },
+  {
+   "id": "cryolator",
+   "section": "heavy",
+   "en": "Cryolator",
+   "es": "Cryolator",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/c2/Cryolator_%28Fallout_4%29.png/revision/latest/scale-to-width-down/256?cb=20201024122115",
+   "wiki": "https://fallout.fandom.com/wiki/Cryolator_(Fallout_76)"
+  },
+  {
+   "id": "flamer",
+   "section": "heavy",
+   "en": "Flamer",
+   "es": "Lanzallamas",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/9/99/FO76_Flamer.png/revision/latest/scale-to-width-down/256?cb=20190216011309",
+   "wiki": "https://fallout.fandom.com/wiki/Flamer_(Fallout_76)"
+  },
+  {
+   "id": "gatling_gun",
+   "section": "heavy",
+   "en": "Gatling gun",
+   "es": "Ametralladora Gatling",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/1/15/Fo76_Gatling_gun.png/revision/latest/scale-to-width-down/256?cb=20210521131158",
+   "wiki": "https://fallout.fandom.com/wiki/Gatling_gun"
+  },
+  {
+   "id": "gatling_laser",
+   "section": "heavy",
+   "en": "Gatling laser",
+   "es": "Ametralladora láser",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/2/2e/Gatling_laser_%28Fallout_4%29.png/revision/latest/scale-to-width-down/256?cb=20200512125816",
+   "wiki": "https://fallout.fandom.com/wiki/Gatling_laser_(Fallout_76)"
+  },
+  {
+   "id": "gatling_plasma",
+   "section": "heavy",
+   "en": "Gatling plasma",
+   "es": "Ametralladora de plasma",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/7/79/F76_Plasma_gatling_left.png/revision/latest/scale-to-width-down/256?cb=20190929193301",
+   "wiki": "https://fallout.fandom.com/wiki/Gatling_plasma_(Fallout_76)"
+  },
+  {
+   "id": "gauss_minigun",
+   "section": "heavy",
+   "en": "Gauss minigun",
+   "es": "Ametralladora Gauss",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/cb/F76WL_Gauss_minigun.png/revision/latest/scale-to-width-down/256?cb=20200416213053",
+   "wiki": "https://fallout.fandom.com/wiki/Gauss_minigun_(Fallout_76)"
+  },
+  {
+   "id": "harpoon_gun",
+   "section": "heavy",
+   "en": "Harpoon gun",
+   "es": "Arma arpón",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/1/1d/FO76_Harpoon_gun.png/revision/latest/scale-to-width-down/256?cb=20200314185746",
+   "wiki": "https://fallout.fandom.com/wiki/Harpoon_gun_(Fallout_76)"
+  },
+  {
+   "id": "light_machine_gun",
+   "section": "heavy",
+   "en": "Light machine gun",
+   "es": "Ametralladora ligera",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/4b/FO76LMG.png/revision/latest/scale-to-width-down/256?cb=20240925025642",
+   "wiki": "https://fallout.fandom.com/wiki/Light_machine_gun_(Fallout_76)"
+  },
+  {
+   "id": "minigun",
+   "section": "heavy",
+   "en": "Minigun",
+   "es": "Ametralladora",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/50/Fallout4_Minigun.png/revision/latest/scale-to-width-down/256?cb=20151111124632",
+   "wiki": "https://fallout.fandom.com/wiki/Minigun_(Fallout_76)"
+  },
+  {
+   "id": "pepper_shaker_heavy",
+   "section": "heavy",
+   "en": "Pepper Shaker",
+   "es": "Pimentero",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/f/f9/F76SR_Pepper_Shaker.png/revision/latest/scale-to-width-down/256?cb=20210716214620",
+   "wiki": "https://fallout.fandom.com/wiki/Pepper_Shaker"
+  },
+  {
+   "id": "plasma_caster",
+   "section": "heavy",
+   "en": "Plasma caster",
+   "es": "Centro de plasma",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/3b/F76WL_Plasma_Caster_left.png/revision/latest/scale-to-width-down/256?cb=20200416143619",
+   "wiki": "https://fallout.fandom.com/wiki/Plasma_caster_(Fallout_76)"
+  },
+  {
+   "id": "tesla_cannon",
+   "section": "heavy",
+   "en": "Tesla cannon",
+   "es": "Cañón Tesla",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/1/12/FO76GD_Tesla_cannon.webp/revision/latest/scale-to-width-down/256?cb=20240929002847",
+   "wiki": "https://fallout.fandom.com/wiki/Tesla_cannon_(Fallout_76)"
+  },
+  {
+   "id": "ultracite_gatling_laser",
+   "section": "heavy",
+   "en": "Ultracite Gatling laser",
+   "es": "Ametralladora láser de ultracita",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/b4/FO76_Ultracite_Gatling_Laser.png/revision/latest/scale-to-width-down/256?cb=20191206043720",
+   "wiki": "https://fallout.fandom.com/wiki/Ultracite_Gatling_laser_(Fallout_76)"
+  },
+  {
+   "id": "auto_grenade_launcher",
+   "section": "explosive",
+   "en": "Auto grenade launcher",
+   "es": "Lanzagranadas automático",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/f/f0/AutoGrenadeLauncher.png/revision/latest/scale-to-width-down/256?cb=20190929165755",
+   "wiki": "https://fallout.fandom.com/wiki/Auto_grenade_launcher"
+  },
+  {
+   "id": "broadsider",
+   "section": "explosive",
+   "en": "Broadsider",
+   "es": "Cañonero",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/1/18/FO76_Broadsider.png/revision/latest/scale-to-width-down/256?cb=20190212023359",
+   "wiki": "https://fallout.fandom.com/wiki/Broadsider_(Fallout_76)"
+  },
+  {
+   "id": "fat_man",
+   "section": "explosive",
+   "en": "Fat Man",
+   "es": "Fat Man",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/2/20/FO76_Fat_Man.png/revision/latest/scale-to-width-down/256?cb=20190719192628",
+   "wiki": "https://fallout.fandom.com/wiki/Fat_Man_(Fallout_76)"
+  },
+  {
+   "id": "hellstorm_missile_launcher",
+   "section": "explosive",
+   "en": "Hellstorm missile launcher",
+   "es": "Lanzamisiles Hellstorm",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/59/FO76_BOS_Launcher_Alt.png/revision/latest/scale-to-width-down/256?cb=20201005234405",
+   "wiki": "https://fallout.fandom.com/wiki/Hellstorm_missile_launcher"
+  },
+  {
+   "id": "m79_grenade_launcher",
+   "section": "explosive",
+   "en": "M79 grenade launcher",
+   "es": "Lanzagranadas M79",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/e/e5/Fo76_M79_grenade_launcher.png/revision/latest/scale-to-width-down/256?cb=20210520205600",
+   "wiki": "https://fallout.fandom.com/wiki/M79_grenade_launcher"
+  },
+  {
+   "id": "missile_launcher",
+   "section": "explosive",
+   "en": "Missile launcher",
+   "es": "Lanzamisiles",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/9/91/FO76_Missile_launcher.png/revision/latest/scale-to-width-down/256?cb=20190129081110",
+   "wiki": "https://fallout.fandom.com/wiki/Missile_launcher_(Fallout_76)"
+  },
+  {
+   "id": "thirst_zapper",
+   "section": "explosive",
+   "en": "Thirst Zapper",
+   "es": "Fulminador de sed",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/43/FO76NWOT_Thirst_Zapper.png/revision/latest/scale-to-width-down/256?cb=20221208113723",
+   "wiki": "https://fallout.fandom.com/wiki/Thirst_Zapper_(Fallout_76)"
+  },
+  {
+   "id": "acceptable_overkill",
+   "section": "unique_ranged",
+   "en": "Acceptable Overkill",
+   "es": "Exceso de destrucción aceptable",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/e/e2/Fo76nw_Acceptable_Overkill.png/revision/latest/scale-to-width-down/256?cb=20190716064839",
+   "wiki": "https://fallout.fandom.com/wiki/Acceptable_Overkill"
+  },
+  {
+   "id": "anchorage_ace",
+   "section": "unique_ranged",
+   "en": "Anchorage Ace",
+   "es": "As de Anchorage",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/1/12/FO76SV_Anchorage_Ace.webp/revision/latest/scale-to-width-down/256?cb=20240622195653",
+   "wiki": "https://fallout.fandom.com/wiki/Anchorage_Ace"
+  },
+  {
+   "id": "anti_scorched_training_pistol",
+   "section": "unique_ranged",
+   "en": "Anti-Scorched training pistol",
+   "es": "Pistola de entrenamiento anticalcinados",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/8/89/FO76_Anti-Scorched_Training_Pistol.png/revision/latest/scale-to-width-down/256?cb=20190409023931",
+   "wiki": "https://fallout.fandom.com/wiki/Anti-Scorched_training_pistol"
+  },
+  {
+   "id": "boiling_point",
+   "section": "unique_ranged",
+   "en": "Boiling Point",
+   "es": "Punto de ebullición",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/2/2d/FO76GD_Boiling_Point.webp/revision/latest/scale-to-width-down/256?cb=20241128182201",
+   "wiki": "https://fallout.fandom.com/wiki/Boiling_Point"
+  },
+  {
+   "id": "boomstick",
+   "section": "unique_ranged",
+   "en": "Boomstick",
+   "es": "Palo explosivo",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/52/FO76_Boomstick.png/revision/latest/scale-to-width-down/256?cb=20260815230651",
+   "wiki": "https://fallout.fandom.com/wiki/Boomstick"
+  },
+  {
+   "id": "brotherhood_recon_rifle",
+   "section": "unique_ranged",
+   "en": "Brotherhood recon rifle",
+   "es": "Rifle de reconocimiento de la Hermandad",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/57/Fo76_weapons_Brotherhood_recon_rifle.png/revision/latest/scale-to-width-down/256?cb=20181127201204",
+   "wiki": "https://fallout.fandom.com/wiki/Brotherhood_recon_rifle"
+  },
+  {
+   "id": "bunker_buster",
+   "section": "unique_ranged",
+   "en": "Bunker Buster",
+   "es": "Ladrón de búnkeres",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/5f/FO76_Bunker_Buster.png/revision/latest/scale-to-width-down/256?cb=20190715092013",
+   "wiki": "https://fallout.fandom.com/wiki/Bunker_Buster_(weapon)"
+  },
+  {
+   "id": "burning_love",
+   "section": "unique_ranged",
+   "en": "Burning Love",
+   "es": "Amor ardiente",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/ba/FO76_Burning_Love.png/revision/latest/scale-to-width-down/256?cb=20221220124854",
+   "wiki": "https://fallout.fandom.com/wiki/Burning_Love"
+  },
+  {
+   "id": "cauterizer",
+   "section": "unique_ranged",
+   "en": "Cauterizer",
+   "es": "Cauterizador",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/b7/FO76GD_Cauterizer.png/revision/latest/scale-to-width-down/256?cb=20241128210729",
+   "wiki": "https://fallout.fandom.com/wiki/Cauterizer_(Fallout_76)"
+  },
+  {
+   "id": "circuit_breaker",
+   "section": "unique_ranged",
+   "en": "Circuit Breaker",
+   "es": "Cortacircuitos",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/7/7a/SCORE_S14_Weapons_CircuitBreaker_L.webp/revision/latest/scale-to-width-down/256?cb=20231203201718",
+   "wiki": "https://fallout.fandom.com/wiki/Circuit_Breaker"
+  },
+  {
+   "id": "civil_unrest",
+   "section": "unique_ranged",
+   "en": "Civil Unrest",
+   "es": "Disturbios civiles",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/66/Civil_Unrest.png/revision/latest/scale-to-width-down/256?cb=20200418003303",
+   "wiki": "https://fallout.fandom.com/wiki/Civil_Unrest"
+  },
+  {
+   "id": "cold_shoulder",
+   "section": "unique_ranged",
+   "en": "Cold Shoulder",
+   "es": "Hombro frío",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/b8/FO76_Cold_Shoulder.png/revision/latest/scale-to-width-down/256?cb=20230307230916",
+   "wiki": "https://fallout.fandom.com/wiki/Cold_Shoulder"
+  },
+  {
+   "id": "crowd_control",
+   "section": "unique_ranged",
+   "en": "Crowd Control",
+   "es": "Control de multitudes",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/d/d6/FO76_Crowd_Control.png/revision/latest/scale-to-width-down/256?cb=20220713202832",
+   "wiki": "https://fallout.fandom.com/wiki/Crowd_Control"
+  },
+  {
+   "id": "crushing_blow",
+   "section": "unique_ranged",
+   "en": "Crushing Blow",
+   "es": "Golpe aplastante",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/e/e5/Fo76_M79_grenade_launcher.png/revision/latest/scale-to-width-down/256?cb=20210520205600",
+   "wiki": "https://fallout.fandom.com/wiki/Crushing_Blow"
+  },
+  {
+   "id": "daisycutter",
+   "section": "unique_ranged",
+   "en": "Daisycutter",
+   "es": "Cortamargaritas",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/2/20/FO76_Fat_Man.png/revision/latest/scale-to-width-down/256?cb=20190719192628",
+   "wiki": "https://fallout.fandom.com/wiki/Daisycutter"
+  },
+  {
+   "id": "doctor_s_orders",
+   "section": "unique_ranged",
+   "en": "Doctor's Orders",
+   "es": "Órdenes del doctor",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/f/fc/FO76_Doctor%27s_Orders.png/revision/latest/scale-to-width-down/256?cb=20220713231705",
+   "wiki": "https://fallout.fandom.com/wiki/Doctor's_Orders"
+  },
+  {
+   "id": "elder_s_mark",
+   "section": "unique_ranged",
+   "en": "Elder's Mark",
+   "es": "Marca del Anciano",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/1/14/FO76_Elder%27s_Mark.png/revision/latest/scale-to-width-down/256?cb=20230508162731",
+   "wiki": "https://fallout.fandom.com/wiki/Elder's_Mark"
+  },
+  {
+   "id": "fancy_pump_action_shotgun",
+   "section": "unique_ranged",
+   "en": "Fancy pump action shotgun",
+   "es": "Escopeta de corredera elegante",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/3d/FO76WL_Fancy_pump_action_shotgun.png/revision/latest/scale-to-width-down/256?cb=20200703054937",
+   "wiki": "https://fallout.fandom.com/wiki/Fancy_pump_action_shotgun"
+  },
+  {
+   "id": "fancy_single_action_revolver",
+   "section": "unique_ranged",
+   "en": "Fancy single action revolver",
+   "es": "Revólver de acción simple elegante",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/a/a5/FO76WL_Fancy_single_action_revolver.png/revision/latest/scale-to-width-down/256?cb=20200607203543",
+   "wiki": "https://fallout.fandom.com/wiki/Fancy_single_action_revolver"
+  },
+  {
+   "id": "final_word",
+   "section": "unique_ranged",
+   "en": "Final Word",
+   "es": "Última palabra",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/cc/FO76_50_cal_machine_gun_heavy_barrel.png/revision/latest/scale-to-width-down/256?cb=20190428224841",
+   "wiki": "https://fallout.fandom.com/wiki/Final_Word"
+  },
+  {
+   "id": "flatliner",
+   "section": "unique_ranged",
+   "en": "Flatliner",
+   "es": "Línea plana",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/64/FO76GD_Flatliner.webp/revision/latest/scale-to-width-down/256?cb=20241130184032",
+   "wiki": "https://fallout.fandom.com/wiki/Flatliner"
+  },
+  {
+   "id": "foundation_s_vengeance",
+   "section": "unique_ranged",
+   "en": "Foundation's Vengeance",
+   "es": "Venganza de Fundación",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/8/85/FO76_Foundation%27s_Vengeance.png/revision/latest/scale-to-width-down/256?cb=20220713231617",
+   "wiki": "https://fallout.fandom.com/wiki/Foundation's_Vengeance"
+  },
+  {
+   "id": "grand_finale",
+   "section": "unique_ranged",
+   "en": "Grand Finale",
+   "es": "Gran final",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/41/FO76_Grand_Finale.png/revision/latest/scale-to-width-down/256?cb=20230307230818",
+   "wiki": "https://fallout.fandom.com/wiki/Grand_Finale"
+  },
+  {
+   "id": "gunther_s_big_iron",
+   "section": "unique_ranged",
+   "en": "Gunther's Big Iron",
+   "es": "Gran hierro de Gunther",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/03/FO76_Gunthers_Big_Iron.png/revision/latest/scale-to-width-down/256?cb=20230307230756",
+   "wiki": "https://fallout.fandom.com/wiki/Gunther's_Big_Iron"
+  },
+  {
+   "id": "holy_fire",
+   "section": "unique_ranged",
+   "en": "Holy Fire",
+   "es": "Fuego sagrado",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/c9/FO76_Holy_Fire.png/revision/latest/scale-to-width-down/256?cb=20230508150923",
+   "wiki": "https://fallout.fandom.com/wiki/Holy_Fire"
+  },
+  {
+   "id": "ice_breaker",
+   "section": "unique_ranged",
+   "en": "Ice Breaker",
+   "es": "Rompehielos",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/0d/Score_s21_weapons_harpoongun_icebreaker_l.webp/revision/latest/scale-to-width-down/256?cb=20250530024502",
+   "wiki": "https://fallout.fandom.com/wiki/Ice_Breaker"
+  },
+  {
+   "id": "imposter_assaultron_head",
+   "section": "unique_ranged",
+   "en": "Imposter Assaultron head",
+   "es": "Cabeza de Asaltrón impostora",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/a/a5/FO76_Atomic_Shop_-_Imposter_assaultron_head.png/revision/latest/scale-to-width-down/256?cb=20190918160513",
+   "wiki": "https://fallout.fandom.com/wiki/Imposter_Assaultron_head"
+  },
+  {
+   "id": "kingfisher",
+   "section": "unique_ranged",
+   "en": "Kingfisher",
+   "es": "Martín pescador",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/1/1d/FO76_Harpoon_gun.png/revision/latest/scale-to-width-down/256?cb=20200314185746",
+   "wiki": "https://fallout.fandom.com/wiki/Kingfisher"
+  },
+  {
+   "id": "lickety_split",
+   "section": "unique_ranged",
+   "en": "Lickety-Split",
+   "es": "En un santiamén",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/4b/FO76GD_Lickety-Split.webp/revision/latest/scale-to-width-down/256?cb=20241130210728",
+   "wiki": "https://fallout.fandom.com/wiki/Lickety-Split"
+  },
+  {
+   "id": "longshot",
+   "section": "unique_ranged",
+   "en": "Longshot",
+   "es": "Tiro largo",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/f/fc/FO76_Doctor%27s_Orders.png/revision/latest/scale-to-width-down/256?cb=20220713231705",
+   "wiki": "https://fallout.fandom.com/wiki/Longshot"
+  },
+  {
+   "id": "love_tap",
+   "section": "unique_ranged",
+   "en": "Love Tap",
+   "es": "Toque cariñoso",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/2/2c/F76_Love_Tap.png/revision/latest/scale-to-width-down/256?cb=20240227114203",
+   "wiki": "https://fallout.fandom.com/wiki/Love_Tap_(Fallout_76)"
+  },
+  {
+   "id": "medical_malpractice",
+   "section": "unique_ranged",
+   "en": "Medical Malpractice",
+   "es": "Negligencia médica",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/3a/FO76L%26L_weapon_medmalpractice.webp/revision/latest/scale-to-width-down/256?cb=20210520162337",
+   "wiki": "https://fallout.fandom.com/wiki/Medical_Malpractice"
+  },
+  {
+   "id": "mind_over_matter",
+   "section": "unique_ranged",
+   "en": "Mind Over Matter",
+   "es": "Mente sobre materia",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/46/Mind_Over_Matter.png/revision/latest/scale-to-width-down/256?cb=20210208144853",
+   "wiki": "https://fallout.fandom.com/wiki/Mind_Over_Matter"
+  },
+  {
+   "id": "night_light",
+   "section": "unique_ranged",
+   "en": "Night Light",
+   "es": "Luz nocturna",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/35/FO76WA_Night_Light.png/revision/latest/scale-to-width-down/256?cb=20190714035108",
+   "wiki": "https://fallout.fandom.com/wiki/Night_Light"
+  },
+  {
+   "id": "nuka_launcher",
+   "section": "unique_ranged",
+   "en": "Nuka-Launcher",
+   "es": "Nuka-lanzador",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/be/SCORE_S11_Weapons_NukaLauncher_L.webp/revision/latest/scale-to-width-down/256?cb=20221123021340",
+   "wiki": "https://fallout.fandom.com/wiki/Nuka-Launcher"
+  },
+  {
+   "id": "old_guard_s_10mm_smg",
+   "section": "unique_ranged",
+   "en": "Old Guard's 10mm SMG",
+   "es": "Subfusil de 10 mm de la Vieja Guardia",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/5e/Perfect_Storm.png/revision/latest/scale-to-width-down/256?cb=20240227120610",
+   "wiki": "https://fallout.fandom.com/wiki/Old_Guard's_10mm_SMG"
+  },
+  {
+   "id": "overkill",
+   "section": "unique_ranged",
+   "en": "Overkill",
+   "es": "Exceso de destrucción",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/2/20/FO76_Fat_Man.png/revision/latest/scale-to-width-down/256?cb=20190719192628",
+   "wiki": "https://fallout.fandom.com/wiki/Overkill_(Fallout_76)"
+  },
+  {
+   "id": "perfect_storm",
+   "section": "unique_ranged",
+   "en": "Perfect Storm",
+   "es": "Tormenta perfecta",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/5e/Perfect_Storm.png/revision/latest/scale-to-width-down/256?cb=20240227120610",
+   "wiki": "https://fallout.fandom.com/wiki/Perfect_Storm"
+  },
+  {
+   "id": "pirate_punch",
+   "section": "unique_ranged",
+   "en": "Pirate Punch",
+   "es": "Puñetazo pirata",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/7/7b/76Blunderbuss.png/revision/latest/scale-to-width-down/256?cb=20200312234919",
+   "wiki": "https://fallout.fandom.com/wiki/Pirate_Punch"
+  },
+  {
+   "id": "polly_s_assaultron_head",
+   "section": "unique_ranged",
+   "en": "Polly's Assaultron head",
+   "es": "Cabeza de Asaltrón de Polly",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/3a/FO76_Salvaged_assaultron_head.png/revision/latest/scale-to-width-down/256?cb=20210306170515",
+   "wiki": "https://fallout.fandom.com/wiki/Polly's_Assaultron_head"
+  },
+  {
+   "id": "pyrolyzer",
+   "section": "unique_ranged",
+   "en": "Pyrolyzer",
+   "es": "Pirolizador",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/c6/Fo76_Pyrolyzer.png/revision/latest/scale-to-width-down/256?cb=20190626072537",
+   "wiki": "https://fallout.fandom.com/wiki/Pyrolyzer"
+  },
+  {
+   "id": "red_terror",
+   "section": "unique_ranged",
+   "en": "Red Terror",
+   "es": "Terror rojo",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/43/FO76SV_Red_Terror.webp/revision/latest/scale-to-width-down/256?cb=20240620233418",
+   "wiki": "https://fallout.fandom.com/wiki/Red_Terror"
+  },
+  {
+   "id": "resolute_veteran",
+   "section": "unique_ranged",
+   "en": "Resolute Veteran",
+   "es": "Veterano decidido",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/32/FO76_Resolute_Veteran.png/revision/latest/scale-to-width-down/256?cb=20190508003346",
+   "wiki": "https://fallout.fandom.com/wiki/Resolute_Veteran"
+  },
+  {
+   "id": "resolve_breaker",
+   "section": "unique_ranged",
+   "en": "Resolve Breaker",
+   "es": "Rompevoluntades",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/e/e4/FO76GD_Resolve_Breaker.webp/revision/latest/scale-to-width-down/256?cb=20241130220853",
+   "wiki": "https://fallout.fandom.com/wiki/Resolve_Breaker"
+  },
+  {
+   "id": "rose_s_syringer",
+   "section": "unique_ranged",
+   "en": "Rose's syringer",
+   "es": "Inyector de Rose",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/8/88/Syringer.png/revision/latest/scale-to-width-down/256?cb=20160105002209",
+   "wiki": "https://fallout.fandom.com/wiki/Rose's_syringer"
+  },
+  {
+   "id": "salt_of_the_earth",
+   "section": "unique_ranged",
+   "en": "Salt of the Earth",
+   "es": "La sal de la tierra",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/58/FO76_Double-barrel_shotgun.png/revision/latest/scale-to-width-down/256?cb=20210521130025",
+   "wiki": "https://fallout.fandom.com/wiki/Salt_of_the_Earth"
+  },
+  {
+   "id": "shattered_grounds",
+   "section": "unique_ranged",
+   "en": "Shattered Grounds",
+   "es": "Tierras destrozadas",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/b8/FO76SV_Shattered_Grounds.webp/revision/latest/scale-to-width-down/256?cb=20240621232932",
+   "wiki": "https://fallout.fandom.com/wiki/Shattered_Grounds"
+  },
+  {
+   "id": "slug_buster",
+   "section": "unique_ranged",
+   "en": "Slug Buster",
+   "es": "Revientababosas",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/d/d7/FO76_Slug_Buster.png/revision/latest/scale-to-width-down/256?cb=20251230110725",
+   "wiki": "https://fallout.fandom.com/wiki/Slug_Buster"
+  },
+  {
+   "id": "sole_survivor",
+   "section": "unique_ranged",
+   "en": "Sole Survivor",
+   "es": "Superviviente solitario",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/1/12/FO76_weapon_solesurvivor02.webp/revision/latest/scale-to-width-down/256?cb=20210911101013",
+   "wiki": "https://fallout.fandom.com/wiki/Sole_Survivor_(weapon)"
+  },
+  {
+   "id": "somerset_special",
+   "section": "unique_ranged",
+   "en": "Somerset Special",
+   "es": "Especial Somerset",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/30/FO76_weapon_somersetspecial.webp/revision/latest/scale-to-width-down/256?cb=20210705141926",
+   "wiki": "https://fallout.fandom.com/wiki/Somerset_Special"
+  },
+  {
+   "id": "the_action_hero",
+   "section": "unique_ranged",
+   "en": "The Action Hero",
+   "es": "El héroe de acción",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/cc/FO76_50_cal_machine_gun_heavy_barrel.png/revision/latest/scale-to-width-down/256?cb=20190428224841",
+   "wiki": "https://fallout.fandom.com/wiki/The_Action_Hero"
+  },
+  {
+   "id": "the_fact_finder",
+   "section": "unique_ranged",
+   "en": "The Fact Finder",
+   "es": "El investigador",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/d/de/FO76_The_Fact_Finder.png/revision/latest/scale-to-width-down/256?cb=20201016090618",
+   "wiki": "https://fallout.fandom.com/wiki/The_Fact_Finder"
+  },
+  {
+   "id": "the_guarantee",
+   "section": "unique_ranged",
+   "en": "The Guarantee",
+   "es": "La garantía",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/2/20/FO76_Fat_Man.png/revision/latest/scale-to-width-down/256?cb=20190719192628",
+   "wiki": "https://fallout.fandom.com/wiki/The_Guarantee"
+  },
+  {
+   "id": "the_kabloom",
+   "section": "unique_ranged",
+   "en": "The Kabloom",
+   "es": "El Kabum",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/a/af/FO76_The_Kabloom.png/revision/latest/scale-to-width-down/256?cb=20230508153944",
+   "wiki": "https://fallout.fandom.com/wiki/The_Kabloom"
+  },
+  {
+   "id": "the_peacemaker",
+   "section": "unique_ranged",
+   "en": "The Peacemaker",
+   "es": "El pacificador",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/f/f0/AutoGrenadeLauncher.png/revision/latest/scale-to-width-down/256?cb=20190929165755",
+   "wiki": "https://fallout.fandom.com/wiki/The_Peacemaker"
+  },
+  {
+   "id": "the_v_a_t_s_unknown",
+   "section": "unique_ranged",
+   "en": "The V.A.T.S. Unknown",
+   "es": "El V.A.T.S. desconocido",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/f/f0/The_VATS_Unknown.png/revision/latest/scale-to-width-down/256?cb=20210205125051",
+   "wiki": "https://fallout.fandom.com/wiki/The_V.A.T.S._Unknown"
+  },
+  {
+   "id": "ticket_to_revenge",
+   "section": "unique_ranged",
+   "en": "Ticket to Revenge",
+   "es": "Billete a la venganza",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/6e/FO76_TickettoRevenge.png/revision/latest/scale-to-width-down/256?cb=20240702212413",
+   "wiki": "https://fallout.fandom.com/wiki/Ticket_to_Revenge"
+  },
+  {
+   "id": "v63_bertha",
+   "section": "unique_ranged",
+   "en": "V63-BERTHA",
+   "es": "V63-BERTHA",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/3d/V63_Bertha.png/revision/latest/scale-to-width-down/256?cb=20240618201116",
+   "wiki": "https://fallout.fandom.com/wiki/V63-BERTHA"
+  },
+  {
+   "id": "v63_olga",
+   "section": "unique_ranged",
+   "en": "V63-OLGA",
+   "es": "V63-OLGA",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/ba/FO76SV_V63-OLGA.webp/revision/latest/scale-to-width-down/256?cb=20240619224722",
+   "wiki": "https://fallout.fandom.com/wiki/V63-OLGA"
+  },
+  {
+   "id": "valkyrie",
+   "section": "unique_ranged",
+   "en": "Valkyrie",
+   "es": "Valquiria",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/8/8f/FO76GD_Valkyrie.webp/revision/latest/scale-to-width-down/256?cb=20241203032226",
+   "wiki": "https://fallout.fandom.com/wiki/Valkyrie"
+  },
+  {
+   "id": "voice_of_set",
+   "section": "unique_ranged",
+   "en": "Voice of Set",
+   "es": "Voz de Set",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/50/Fo76_Medical_Malpractice.png/revision/latest/scale-to-width-down/256?cb=20210520161825",
+   "wiki": "https://fallout.fandom.com/wiki/Voice_of_Set"
+  },
+  {
+   "id": "vox_syringer",
+   "section": "unique_ranged",
+   "en": "Vox syringer",
+   "es": "Inyector de Vox",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/8/88/Syringer.png/revision/latest/scale-to-width-down/256?cb=20160105002209",
+   "wiki": "https://fallout.fandom.com/wiki/Vox_syringer"
+  },
+  {
+   "id": "western_spirit",
+   "section": "unique_ranged",
+   "en": "Western Spirit",
+   "es": "Espíritu del Oeste",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/52/FO76_Western_Spirit.png/revision/latest/scale-to-width-down/256?cb=20221219182553",
+   "wiki": "https://fallout.fandom.com/wiki/Western_Spirit"
+  },
+  {
+   "id": "whistle_in_the_dark",
+   "section": "unique_ranged",
+   "en": "Whistle in the Dark",
+   "es": "Un silbido en la oscuridad",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/62/FO76_Whistle_In_The_Dark_Ops.png/revision/latest/scale-to-width-down/256?cb=20201001025459",
+   "wiki": "https://fallout.fandom.com/wiki/Whistle_in_the_Dark"
+  },
+  {
+   "id": "xerxo_s_gamma_ray_gun",
+   "section": "unique_ranged",
+   "en": "Xerxo's gamma ray gun",
+   "es": "Pistola de rayos gamma de Xerxo",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/bc/FO76_Gamma_gun.png/revision/latest/scale-to-width-down/256?cb=20190214211416",
+   "wiki": "https://fallout.fandom.com/wiki/Xerxo's_gamma_ray_gun"
+  },
+  {
+   "id": "assaultron_blade",
+   "section": "one_handed",
+   "en": "Assaultron blade",
+   "es": "Hoja de Asaltrón",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/b4/Automatron_assaultron_blade.png/revision/latest/scale-to-width-down/256?cb=20210224035332",
+   "wiki": "https://fallout.fandom.com/wiki/Assaultron_blade_(Fallout_76)"
+  },
+  {
+   "id": "baton",
+   "section": "one_handed",
+   "en": "Baton",
+   "es": "Porra",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/5e/Fallout4_Security_Baton.png/revision/latest/scale-to-width-down/256?cb=20210221202347",
+   "wiki": "https://fallout.fandom.com/wiki/Baton_(Fallout_76)"
+  },
+  {
+   "id": "bone_club",
+   "section": "one_handed",
+   "en": "Bone club",
+   "es": "Garrote de hueso",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/7/7c/FO76_Bone_club.png/revision/latest/scale-to-width-down/256?cb=20190401004641",
+   "wiki": "https://fallout.fandom.com/wiki/Bone_club"
+  },
+  {
+   "id": "bowie_knife",
+   "section": "one_handed",
+   "en": "Bowie knife",
+   "es": "Cuchillo Bowie",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/a/a0/Fo76_Bowie_knife.png/revision/latest/scale-to-width-down/256?cb=20200312230625",
+   "wiki": "https://fallout.fandom.com/wiki/Bowie_knife_(Fallout_76)"
+  },
+  {
+   "id": "cattleprod",
+   "section": "one_handed",
+   "en": "Cattleprod",
+   "es": "Picana",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/8/8d/F76WL_cattleprod.png/revision/latest/scale-to-width-down/256?cb=20200418155115",
+   "wiki": "https://fallout.fandom.com/wiki/Cattleprod_(Wastelanders)"
+  },
+  {
+   "id": "chinese_officer_sword",
+   "section": "one_handed",
+   "en": "Chinese officer sword",
+   "es": "Espada de oficial chino",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/f/f4/Chinese_officer_sword_%28FO4%29.png/revision/latest/scale-to-width-down/256?cb=20151114194054",
+   "wiki": "https://fallout.fandom.com/wiki/Chinese_officer_sword_(Fallout_76)"
+  },
+  {
+   "id": "combat_knife",
+   "section": "one_handed",
+   "en": "Combat knife",
+   "es": "Cuchillo de combate",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/2/24/Fallout4_Combat_knife.png/revision/latest/scale-to-width-down/256?cb=20210325174911",
+   "wiki": "https://fallout.fandom.com/wiki/Combat_knife_(Fallout_76)"
+  },
+  {
+   "id": "commie_whacker",
+   "section": "one_handed",
+   "en": "Commie Whacker",
+   "es": "Machacacomunistas",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/d/d9/Commie_Whacker.png/revision/latest/scale-to-width-down/256?cb=20160906232323",
+   "wiki": "https://fallout.fandom.com/wiki/Commie_Whacker_(Fallout_76)"
+  },
+  {
+   "id": "cosmic_knife",
+   "section": "one_handed",
+   "en": "Cosmic knife",
+   "es": "Cuchillo cósmico",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/5f/Score_s22_weapons_cosmicknife_l.webp/revision/latest/scale-to-width-down/256?cb=20250901222910",
+   "wiki": "https://fallout.fandom.com/wiki/Cosmic_knife_(Fallout_76)"
+  },
+  {
+   "id": "cultist_blade",
+   "section": "one_handed",
+   "en": "Cultist blade",
+   "es": "Hoja de sectario",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/9/90/FO76_Cultist_blade.png/revision/latest/scale-to-width-down/256?cb=20210224225701",
+   "wiki": "https://fallout.fandom.com/wiki/Cultist_blade"
+  },
+  {
+   "id": "cultist_dagger",
+   "section": "one_handed",
+   "en": "Cultist dagger",
+   "es": "Daga de sectario",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/56/CultBlade76.png/revision/latest/scale-to-width-down/256?cb=20200312225825",
+   "wiki": "https://fallout.fandom.com/wiki/Cultist_dagger"
+  },
+  {
+   "id": "drill",
+   "section": "one_handed",
+   "en": "Drill",
+   "es": "Taladro",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/e/e8/Fo76_Drill.png/revision/latest/scale-to-width-down/256?cb=20191001060556",
+   "wiki": "https://fallout.fandom.com/wiki/Drill"
+  },
+  {
+   "id": "guitar_sword",
+   "section": "one_handed",
+   "en": "Guitar sword",
+   "es": "Espada guitarra",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/f/f1/Guitar_Sword_F76.png/revision/latest/scale-to-width-down/256?cb=20200312223559",
+   "wiki": "https://fallout.fandom.com/wiki/Guitar_sword"
+  },
+  {
+   "id": "hatchet",
+   "section": "one_handed",
+   "en": "Hatchet",
+   "es": "Hacha de mano",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/7/7d/FO76_Hatcho_hatchet_2.png/revision/latest/scale-to-width-down/256?cb=20201225044230",
+   "wiki": "https://fallout.fandom.com/wiki/Hatchet_(Fallout_76)"
+  },
+  {
+   "id": "lead_pipe",
+   "section": "one_handed",
+   "en": "Lead pipe",
+   "es": "Tubo de plomo",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/47/Fo4_lead_pipe.png/revision/latest/scale-to-width-down/256?cb=20160123173619",
+   "wiki": "https://fallout.fandom.com/wiki/Lead_pipe_(Fallout_76)"
+  },
+  {
+   "id": "machete",
+   "section": "one_handed",
+   "en": "Machete",
+   "es": "Machete",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/cf/FO76_Machete.png/revision/latest/scale-to-width-down/256?cb=20210224225714",
+   "wiki": "https://fallout.fandom.com/wiki/Machete_(Fallout_76)"
+  },
+  {
+   "id": "meteoritic_sword",
+   "section": "one_handed",
+   "en": "Meteoritic sword",
+   "es": "Espada meteorítica",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/40/FO76_Meteoritic_Sword.webp/revision/latest/scale-to-width-down/256?cb=20210224230722",
+   "wiki": "https://fallout.fandom.com/wiki/Meteoritic_sword"
+  },
+  {
+   "id": "paddle_ball",
+   "section": "one_handed",
+   "en": "Paddle ball",
+   "es": "Pelota de pala",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/4e/Fo76_paddle_ball.png/revision/latest/scale-to-width-down/256?cb=20210224225733",
+   "wiki": "https://fallout.fandom.com/wiki/Paddle_ball_(Fallout_76)"
+  },
+  {
+   "id": "pipe_wrench",
+   "section": "one_handed",
+   "en": "Pipe wrench",
+   "es": "Llave inglesa",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/61/Fallout4_Pipe_wrench.png/revision/latest/scale-to-width-down/256?cb=20160203010516",
+   "wiki": "https://fallout.fandom.com/wiki/Pipe_wrench_(Fallout_76)"
+  },
+  {
+   "id": "plasma_cutter",
+   "section": "one_handed",
+   "en": "Plasma cutter",
+   "es": "Cortador de plasma",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/be/FO76_Plasma_Sword.png/revision/latest/scale-to-width-down/256?cb=20210702033657",
+   "wiki": "https://fallout.fandom.com/wiki/Plasma_cutter"
+  },
+  {
+   "id": "revolutionary_sword",
+   "section": "one_handed",
+   "en": "Revolutionary sword",
+   "es": "Espada revolucionaria",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/59/Revolutionary_sword.png/revision/latest/scale-to-width-down/256?cb=20151215003200",
+   "wiki": "https://fallout.fandom.com/wiki/Revolutionary_sword_(Fallout_76)"
+  },
+  {
+   "id": "ripper",
+   "section": "one_handed",
+   "en": "Ripper",
+   "es": "Destripador",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/3e/Ripper_%28Fallout_4%29.png/revision/latest/scale-to-width-down/256?cb=20200312212308",
+   "wiki": "https://fallout.fandom.com/wiki/Ripper_(Fallout_76)"
+  },
+  {
+   "id": "rolling_pin",
+   "section": "one_handed",
+   "en": "Rolling pin",
+   "es": "Rodillo de amasar",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/c6/Fallout4_Rolling_pin.png/revision/latest/scale-to-width-down/256?cb=20200314144808",
+   "wiki": "https://fallout.fandom.com/wiki/Rolling_pin_(Fallout_76)"
+  },
+  {
+   "id": "sheepsquatch_club",
+   "section": "one_handed",
+   "en": "Sheepsquatch club",
+   "es": "Garrote de Sheepsquatch",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/4a/F76WA_Sheepsquatch_club.png/revision/latest/scale-to-width-down/256?cb=20210520164455",
+   "wiki": "https://fallout.fandom.com/wiki/Sheepsquatch_club"
+  },
+  {
+   "id": "shishkebab",
+   "section": "one_handed",
+   "en": "Shishkebab",
+   "es": "Pincho moruno",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/5d/Shishkebab_%28Fallout_4%29.png/revision/latest/scale-to-width-down/256?cb=20200314150857",
+   "wiki": "https://fallout.fandom.com/wiki/Shishkebab_(Fallout_76)"
+  },
+  {
+   "id": "sickle",
+   "section": "one_handed",
+   "en": "Sickle",
+   "es": "Hoz",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/02/Sickle.png/revision/latest/scale-to-width-down/256?cb=20210521145619",
+   "wiki": "https://fallout.fandom.com/wiki/Sickle"
+  },
+  {
+   "id": "ski_sword",
+   "section": "one_handed",
+   "en": "Ski sword",
+   "es": "Espada de esquí",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/bd/Ski_sword.png/revision/latest/scale-to-width-down/256?cb=20210520164221",
+   "wiki": "https://fallout.fandom.com/wiki/Ski_sword"
+  },
+  {
+   "id": "switchblade",
+   "section": "one_handed",
+   "en": "Switchblade",
+   "es": "Navaja automática",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/1/1c/FO76_Switchblade.webp/revision/latest/scale-to-width-down/256?cb=20210224230730",
+   "wiki": "https://fallout.fandom.com/wiki/Switchblade_(Fallout_76)"
+  },
+  {
+   "id": "tire_iron",
+   "section": "one_handed",
+   "en": "Tire iron",
+   "es": "Cruceta",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/a/ab/FO76_Tire_iron.webp/revision/latest/scale-to-width-down/256?cb=20210224230717",
+   "wiki": "https://fallout.fandom.com/wiki/Tire_iron_(Fallout_76)"
+  },
+  {
+   "id": "walking_cane",
+   "section": "one_handed",
+   "en": "Walking cane",
+   "es": "Bastón",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/7/72/Walking_cane.png/revision/latest/scale-to-width-down/256?cb=20200312220044",
+   "wiki": "https://fallout.fandom.com/wiki/Walking_cane_(Fallout_76)"
+  },
+  {
+   "id": "auto_axe",
+   "section": "two_handed",
+   "en": "Auto axe",
+   "es": "Machete automático",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/2/2a/F76WL_Autoaxe.png/revision/latest/scale-to-width-down/256?cb=20200418155211",
+   "wiki": "https://fallout.fandom.com/wiki/Auto_axe_(Fallout_76)"
+  },
+  {
+   "id": "baseball_bat",
+   "section": "two_handed",
+   "en": "Baseball bat",
+   "es": "Bate de béisbol",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/06/FO76_Baseball_bat.png/revision/latest/scale-to-width-down/256?cb=20211106045900",
+   "wiki": "https://fallout.fandom.com/wiki/Baseball_bat_(Fallout_76)"
+  },
+  {
+   "id": "board",
+   "section": "two_handed",
+   "en": "Board",
+   "es": "Tabla",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/2/2f/FO76_Board.png/revision/latest/scale-to-width-down/256?cb=20190216011400",
+   "wiki": "https://fallout.fandom.com/wiki/Board_(Fallout_76)"
+  },
+  {
+   "id": "bone_hammer",
+   "section": "two_handed",
+   "en": "Bone hammer",
+   "es": "Martillo de hueso",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/e/e0/FO76_Bone_hammer.png/revision/latest/scale-to-width-down/256?cb=20190413162852",
+   "wiki": "https://fallout.fandom.com/wiki/Bone_hammer"
+  },
+  {
+   "id": "chainsaw",
+   "section": "two_handed",
+   "en": "Chainsaw",
+   "es": "Motosierra",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/5b/Chainsaw76.png/revision/latest/scale-to-width-down/256?cb=20190930060518",
+   "wiki": "https://fallout.fandom.com/wiki/Chainsaw_(Fallout_76)"
+  },
+  {
+   "id": "electro_enforcer",
+   "section": "two_handed",
+   "en": "Electro enforcer",
+   "es": "Electroejecutor",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/c9/FO76_Electro_enforcer.png/revision/latest/scale-to-width-down/256?cb=20220514084232",
+   "wiki": "https://fallout.fandom.com/wiki/Electro_enforcer"
+  },
+  {
+   "id": "fire_axe",
+   "section": "two_handed",
+   "en": "Fire axe",
+   "es": "Hacha de bombero",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/f/f3/Fire_axe.png/revision/latest/scale-to-width-down/256?cb=20210521125814",
+   "wiki": "https://fallout.fandom.com/wiki/Fire_axe_(Fallout_76)"
+  },
+  {
+   "id": "golf_club",
+   "section": "two_handed",
+   "en": "Golf club",
+   "es": "Palo de golf",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/4d/FO76_Golf_club.png/revision/latest/scale-to-width-down/256?cb=20210224225708",
+   "wiki": "https://fallout.fandom.com/wiki/Golf_club"
+  },
+  {
+   "id": "grognak_s_axe",
+   "section": "two_handed",
+   "en": "Grognak's axe",
+   "es": "Hacha de Grognak",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/01/Grognaks_axe.png/revision/latest/scale-to-width-down/256?cb=20200314142515",
+   "wiki": "https://fallout.fandom.com/wiki/Grognak's_axe_(Fallout_76)"
+  },
+  {
+   "id": "gulper_smacker",
+   "section": "two_handed",
+   "en": "Gulper Smacker",
+   "es": "Aporreatragones",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/8/8d/FO76TYM_Gulper_Smacker.png/revision/latest/scale-to-width-down/256?cb=20220728135625",
+   "wiki": "https://fallout.fandom.com/wiki/Gulper_Smacker"
+  },
+  {
+   "id": "mr_handy_buzz_blade",
+   "section": "two_handed",
+   "en": "Mr. Handy buzz blade",
+   "es": "Sierra de Mister Mañoso",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/1/13/Mr._Handy_buzz_blade.png/revision/latest/scale-to-width-down/256?cb=20160325002849",
+   "wiki": "https://fallout.fandom.com/wiki/Mr._Handy_buzz_blade_(Fallout_76)"
+  },
+  {
+   "id": "multi_purpose_axe",
+   "section": "two_handed",
+   "en": "Multi-purpose axe",
+   "es": "Hacha multiusos",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/7/78/F76_Multipurpose_Axe.png/revision/latest/scale-to-width-down/256?cb=20210521144931",
+   "wiki": "https://fallout.fandom.com/wiki/Multi-purpose_axe"
+  },
+  {
+   "id": "pickaxe",
+   "section": "two_handed",
+   "en": "Pickaxe",
+   "es": "Pico",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/55/Pickaxe%28FO76%29.png/revision/latest/scale-to-width-down/256?cb=20210224225629",
+   "wiki": "https://fallout.fandom.com/wiki/Pickaxe_(Fallout_76)"
+  },
+  {
+   "id": "pitchfork",
+   "section": "two_handed",
+   "en": "Pitchfork",
+   "es": "Horca",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/8/86/FO76_Pitchfork.png/revision/latest/scale-to-width-down/256?cb=20210520164825",
+   "wiki": "https://fallout.fandom.com/wiki/Pitchfork"
+  },
+  {
+   "id": "pole_hook",
+   "section": "two_handed",
+   "en": "Pole hook",
+   "es": "Gancho de pértiga",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/d/d5/Pole_hook.png/revision/latest/scale-to-width-down/256?cb=20191215045339",
+   "wiki": "https://fallout.fandom.com/wiki/Pole_hook_(Fallout_76)"
+  },
+  {
+   "id": "pool_cue",
+   "section": "two_handed",
+   "en": "Pool cue",
+   "es": "Taco de billar",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/d/d9/Fallout4_Pool_cue.png/revision/latest/scale-to-width-down/256?cb=20200314185340",
+   "wiki": "https://fallout.fandom.com/wiki/Pool_cue_(Fallout_76)"
+  },
+  {
+   "id": "protest_sign",
+   "section": "two_handed",
+   "en": "Protest sign",
+   "es": "Pancarta de protesta",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/5b/Fallout_76_Protest_Sign_3_Against_Automation.png/revision/latest/scale-to-width-down/256?cb=20191214222519",
+   "wiki": "https://fallout.fandom.com/wiki/Protest_sign"
+  },
+  {
+   "id": "sheepsquatch_staff",
+   "section": "two_handed",
+   "en": "Sheepsquatch staff",
+   "es": "Bastón de Sheepsquatch",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/59/F76WA_Sheepsquatch_staff.png/revision/latest/scale-to-width-down/256?cb=20200514210002",
+   "wiki": "https://fallout.fandom.com/wiki/Sheepsquatch_staff"
+  },
+  {
+   "id": "shepherd_s_crook",
+   "section": "two_handed",
+   "en": "Shepherd's crook",
+   "es": "Cayado de pastor",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/c3/FO76WA_Shepherd%27s_crook.png/revision/latest/scale-to-width-down/256?cb=20190527084700",
+   "wiki": "https://fallout.fandom.com/wiki/Shepherd's_crook"
+  },
+  {
+   "id": "shovel",
+   "section": "two_handed",
+   "en": "Shovel",
+   "es": "Pala",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/64/FO76_Shovel.png/revision/latest/scale-to-width-down/256?cb=20200312221016",
+   "wiki": "https://fallout.fandom.com/wiki/Shovel_(Fallout_76)"
+  },
+  {
+   "id": "sledgehammer",
+   "section": "two_handed",
+   "en": "Sledgehammer",
+   "es": "Almádena",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/7/77/Fo4_sledgehammer.png/revision/latest/scale-to-width-down/256?cb=20151214235828",
+   "wiki": "https://fallout.fandom.com/wiki/Sledgehammer_(Fallout_76)"
+  },
+  {
+   "id": "spear",
+   "section": "two_handed",
+   "en": "Spear",
+   "es": "Lanza",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/bd/FO76_Spear.png/revision/latest/scale-to-width-down/256?cb=20200312220455",
+   "wiki": "https://fallout.fandom.com/wiki/Spear_(Fallout_76)"
+  },
+  {
+   "id": "super_sledge",
+   "section": "two_handed",
+   "en": "Super sledge",
+   "es": "Supertrineo",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/b5/FO76_Super_sledge.webp/revision/latest/scale-to-width-down/256?cb=20210224230728",
+   "wiki": "https://fallout.fandom.com/wiki/Super_sledge_(Fallout_76)"
+  },
+  {
+   "id": "the_tenderizer",
+   "section": "two_handed",
+   "en": "The Tenderizer",
+   "es": "La maza",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/8/8a/FO76NW_Tenderizer.png/revision/latest/scale-to-width-down/256?cb=20191206213344",
+   "wiki": "https://fallout.fandom.com/wiki/The_Tenderizer_(Fallout_76)"
+  },
+  {
+   "id": "ultracite_terror_sword",
+   "section": "two_handed",
+   "en": "Ultracite Terror sword",
+   "es": "Espada del Terror de ultracita",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/c1/FO76GD_Ultracite_Terror_Sword.webp/revision/latest/scale-to-width-down/256?cb=20241203012210",
+   "wiki": "https://fallout.fandom.com/wiki/Ultracite_Terror_sword_(Gleaming_Depths)"
+  },
+  {
+   "id": "war_drum",
+   "section": "two_handed",
+   "en": "War drum",
+   "es": "Tambor de guerra",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/50/Wardrum.png/revision/latest/scale-to-width-down/256?cb=20210520161729",
+   "wiki": "https://fallout.fandom.com/wiki/War_drum"
+  },
+  {
+   "id": "war_glaive",
+   "section": "two_handed",
+   "en": "War glaive",
+   "es": "Guja de guerra",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/1/1f/FO76OW_War_Glaive.png/revision/latest/scale-to-width-down/256?cb=20210224040037",
+   "wiki": "https://fallout.fandom.com/wiki/War_glaive"
+  },
+  {
+   "id": "bear_arm",
+   "section": "unarmed",
+   "en": "Bear Arm",
+   "es": "Brazo de oso",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/9/96/Fo76wa_bear_arm.png/revision/latest/scale-to-width-down/256?cb=20200314165009",
+   "wiki": "https://fallout.fandom.com/wiki/Bear_Arm"
+  },
+  {
+   "id": "boxing_glove",
+   "section": "unarmed",
+   "en": "Boxing glove",
+   "es": "Guante de boxeo",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/c4/Fallout4_boxing_glove.png/revision/latest/scale-to-width-down/256?cb=20180113141023",
+   "wiki": "https://fallout.fandom.com/wiki/Boxing_glove_(Fallout_76)"
+  },
+  {
+   "id": "death_tambo",
+   "section": "unarmed",
+   "en": "Death tambo",
+   "es": "Tambo de la muerte",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/6b/Death_tambo.png/revision/latest/scale-to-width-down/256?cb=20200312225415",
+   "wiki": "https://fallout.fandom.com/wiki/Death_tambo"
+  },
+  {
+   "id": "deathclaw_gauntlet",
+   "section": "unarmed",
+   "en": "Deathclaw gauntlet",
+   "es": "Guantelete de sanguinario",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/42/Deathclaw_gauntlet_%28Fallout_4%29.png/revision/latest/scale-to-width-down/256?cb=20200314184800",
+   "wiki": "https://fallout.fandom.com/wiki/Deathclaw_gauntlet_(Fallout_76)"
+  },
+  {
+   "id": "gauntlet",
+   "section": "unarmed",
+   "en": "Gauntlet",
+   "es": "Guantelete",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/1/1a/FO76WL_Gauntlet.png/revision/latest/scale-to-width-down/256?cb=20201008183950",
+   "wiki": "https://fallout.fandom.com/wiki/Gauntlet_(Fallout_76)"
+  },
+  {
+   "id": "knuckles",
+   "section": "unarmed",
+   "en": "Knuckles",
+   "es": "Puño americano",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/39/Fallout4_Knuckles.png/revision/latest/scale-to-width-down/256?cb=20151221233952",
+   "wiki": "https://fallout.fandom.com/wiki/Knuckles_(Fallout_76)"
+  },
+  {
+   "id": "meat_hook",
+   "section": "unarmed",
+   "en": "Meat hook",
+   "es": "Gancho de carnicero",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/a/ad/FO76_Meat_hook.webp/revision/latest/scale-to-width-down/256?cb=20210224230719",
+   "wiki": "https://fallout.fandom.com/wiki/Meat_hook_(Fallout_76)"
+  },
+  {
+   "id": "mole_miner_gauntlet",
+   "section": "unarmed",
+   "en": "Mole miner gauntlet",
+   "es": "Guantelete de minero topo",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/03/FO76_Mole_Miner_Gauntlet.png/revision/latest/scale-to-width-down/256?cb=20181104031128",
+   "wiki": "https://fallout.fandom.com/wiki/Mole_miner_gauntlet"
+  },
+  {
+   "id": "power_fist",
+   "section": "unarmed",
+   "en": "Power fist",
+   "es": "Servopuño",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/7/70/Power_fist_%28Fallout_4%29.png/revision/latest/scale-to-width-down/256?cb=20210521145235",
+   "wiki": "https://fallout.fandom.com/wiki/Power_fist_(Fallout_76)"
+  },
+  {
+   "id": "all_rise",
+   "section": "unique_melee",
+   "en": "All Rise",
+   "es": "Todos en pie",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/a/ab/All_Rise.png/revision/latest/scale-to-width-down/256?cb=20210224225634",
+   "wiki": "https://fallout.fandom.com/wiki/All_Rise"
+  },
+  {
+   "id": "black_diamond",
+   "section": "unique_melee",
+   "en": "Black Diamond",
+   "es": "Diamante negro",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/bd/Ski_sword.png/revision/latest/scale-to-width-down/256?cb=20210520164221",
+   "wiki": "https://fallout.fandom.com/wiki/Black_Diamond"
+  },
+  {
+   "id": "blade_of_bastet",
+   "section": "unique_melee",
+   "en": "Blade of Bastet",
+   "es": "Hoja de Bastet",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/f/f4/Chinese_officer_sword_%28FO4%29.png/revision/latest/scale-to-width-down/256?cb=20151114194054",
+   "wiki": "https://fallout.fandom.com/wiki/Blade_of_Bastet"
+  },
+  {
+   "id": "blue_ridge_branding_iron",
+   "section": "unique_melee",
+   "en": "Blue Ridge branding iron",
+   "es": "Hierro de marcar de Blue Ridge",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/3c/FO76_Blue_Ridge_Branding_Iron.png/revision/latest/scale-to-width-down/256?cb=20230508153336",
+   "wiki": "https://fallout.fandom.com/wiki/Blue_Ridge_branding_iron"
+  },
+  {
+   "id": "camden_whacker",
+   "section": "unique_melee",
+   "en": "Camden Whacker",
+   "es": "Aporreador de Camden",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/d/d9/Commie_Whacker.png/revision/latest/scale-to-width-down/256?cb=20160906232323",
+   "wiki": "https://fallout.fandom.com/wiki/Camden_Whacker"
+  },
+  {
+   "id": "commander_s_charge",
+   "section": "unique_melee",
+   "en": "Commander's Charge",
+   "es": "Carga del comandante",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/59/Revolutionary_sword.png/revision/latest/scale-to-width-down/256?cb=20151215003200",
+   "wiki": "https://fallout.fandom.com/wiki/Commander's_Charge"
+  },
+  {
+   "id": "cryptid_jawbone_knife",
+   "section": "unique_melee",
+   "en": "Cryptid jawbone knife",
+   "es": "Cuchillo de mandíbula de críptido",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/44/CryptidJawboneKnife.png/revision/latest/scale-to-width-down/256?cb=20231015130858",
+   "wiki": "https://fallout.fandom.com/wiki/Cryptid_jawbone_knife"
+  },
+  {
+   "id": "cultist_piercer",
+   "section": "unique_melee",
+   "en": "Cultist Piercer",
+   "es": "Perforador sectario",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/4f/CultistPiercerPickaxe.png/revision/latest/scale-to-width-down/256?cb=20231015111926",
+   "wiki": "https://fallout.fandom.com/wiki/Cultist_Piercer"
+  },
+  {
+   "id": "disorderly_conduct",
+   "section": "unique_melee",
+   "en": "Disorderly Conduct",
+   "es": "Alteración del orden",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/8/84/FO76NW_Disorderly_Conduct.png/revision/latest/scale-to-width-down/256?cb=20200218172649",
+   "wiki": "https://fallout.fandom.com/wiki/Disorderly_Conduct"
+  },
+  {
+   "id": "drill_fist",
+   "section": "unique_melee",
+   "en": "Drill Fist",
+   "es": "Puño taladro",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/04/FO76GD_Drill_Fist.webp/revision/latest/scale-to-width-down/256?cb=20241129232739",
+   "wiki": "https://fallout.fandom.com/wiki/Drill_Fist"
+  },
+  {
+   "id": "face_breaker",
+   "section": "unique_melee",
+   "en": "Face Breaker",
+   "es": "Rompecaras",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/f/fe/Face_Breaker.png/revision/latest/scale-to-width-down/256?cb=20210716161902",
+   "wiki": "https://fallout.fandom.com/wiki/Face_Breaker"
+  },
+  {
+   "id": "grant_s_saber",
+   "section": "unique_melee",
+   "en": "Grant's saber",
+   "es": "Sable de Grant",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/f/f4/Chinese_officer_sword_%28FO4%29.png/revision/latest/scale-to-width-down/256?cb=20151114194054",
+   "wiki": "https://fallout.fandom.com/wiki/Grant's_saber"
+  },
+  {
+   "id": "head_hunter_scythe",
+   "section": "unique_melee",
+   "en": "Head Hunter Scythe",
+   "es": "Guadaña cazacabezas",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/43/Score_s17_weapons_headhunter_l.webp/revision/latest/scale-to-width-down/256?cb=20240613030809",
+   "wiki": "https://fallout.fandom.com/wiki/Head_Hunter_Scythe"
+  },
+  {
+   "id": "luca_s_switchblade",
+   "section": "unique_melee",
+   "en": "Luca's switchblade",
+   "es": "Navaja automática de Luca",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/1/16/FO76_Moon_Luca_Switchblade.webp/revision/latest/scale-to-width-down/256?cb=20250426210105",
+   "wiki": "https://fallout.fandom.com/wiki/Luca's_switchblade"
+  },
+  {
+   "id": "mechanic_s_best_friend",
+   "section": "unique_melee",
+   "en": "Mechanic's Best Friend",
+   "es": "El mejor amigo del mecánico",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/9/9f/FO76_weapon_mechanicsbestfriend02.webp/revision/latest/scale-to-width-down/256?cb=20210911103155",
+   "wiki": "https://fallout.fandom.com/wiki/Mechanic's_Best_Friend"
+  },
+  {
+   "id": "molerat_bat",
+   "section": "unique_melee",
+   "en": "Molerat Bat",
+   "es": "Bate de rata topo",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/e/e5/FO76_Ratbat.png/revision/latest/scale-to-width-down/256?cb=20221220124930",
+   "wiki": "https://fallout.fandom.com/wiki/Molerat_Bat"
+  },
+  {
+   "id": "nailer",
+   "section": "unique_melee",
+   "en": "Nailer",
+   "es": "Clavador",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/9/90/FO76_Cultist_blade.png/revision/latest/scale-to-width-down/256?cb=20210224225701",
+   "wiki": "https://fallout.fandom.com/wiki/Nailer"
+  },
+  {
+   "id": "oathbreaker",
+   "section": "unique_melee",
+   "en": "Oathbreaker",
+   "es": "Rompejuramentos",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/1/1f/FO76OW_War_Glaive.png/revision/latest/scale-to-width-down/256?cb=20210224040037",
+   "wiki": "https://fallout.fandom.com/wiki/Oathbreaker"
+  },
+  {
+   "id": "ogua_gauntlet",
+   "section": "unique_melee",
+   "en": "Ogua gauntlet",
+   "es": "Guantelete de Ogua",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/a/ad/FO76_Moon_Ogua_gauntlet.webp/revision/latest/scale-to-width-down/256?cb=20250426210013",
+   "wiki": "https://fallout.fandom.com/wiki/Ogua_gauntlet"
+  },
+  {
+   "id": "the_debilitator",
+   "section": "unique_melee",
+   "en": "The Debilitator",
+   "es": "El debilitador",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/7/70/FO76_The_Debilitator.png/revision/latest/scale-to-width-down/256?cb=20220713231648",
+   "wiki": "https://fallout.fandom.com/wiki/The_Debilitator"
+  },
+  {
+   "id": "the_farmhand",
+   "section": "unique_melee",
+   "en": "The Farmhand",
+   "es": "El peón",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/b5/FO76_Super_sledge.webp/revision/latest/scale-to-width-down/256?cb=20210224230728",
+   "wiki": "https://fallout.fandom.com/wiki/The_Farmhand"
+  },
+  {
+   "id": "the_gutter",
+   "section": "unique_melee",
+   "en": "The Gutter",
+   "es": "El eviscerador",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/1/1c/FO76_The_Gutter_Ops.png/revision/latest/scale-to-width-down/256?cb=20210224035908",
+   "wiki": "https://fallout.fandom.com/wiki/The_Gutter"
+  },
+  {
+   "id": "the_invader",
+   "section": "unique_melee",
+   "en": "The Invader",
+   "es": "El invasor",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/e/ec/Atx_skin_weapon_alienprobe_l.png/revision/latest/scale-to-width-down/256?cb=20210520163309",
+   "wiki": "https://fallout.fandom.com/wiki/The_Invader"
+  },
+  {
+   "id": "the_quick_fix",
+   "section": "unique_melee",
+   "en": "The Quick Fix",
+   "es": "El arreglo rápido",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/a/aa/FO76WA_The_Quick_Fix.png/revision/latest/scale-to-width-down/256?cb=20190715091935",
+   "wiki": "https://fallout.fandom.com/wiki/The_Quick_Fix"
+  },
+  {
+   "id": "tone_death",
+   "section": "unique_melee",
+   "en": "Tone Death",
+   "es": "Muerte desafinada",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/9/91/FO76_Tone_Death.png/revision/latest/scale-to-width-down/256?cb=20220713184431",
+   "wiki": "https://fallout.fandom.com/wiki/Tone_Death"
+  },
+  {
+   "id": "unstoppable_monster",
+   "section": "unique_melee",
+   "en": "Unstoppable Monster",
+   "es": "Monstruo imparable",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/a/a8/Unstoppable_Monster_DailyOps.webp/revision/latest/scale-to-width-down/256?cb=20211212212339",
+   "wiki": "https://fallout.fandom.com/wiki/Unstoppable_Monster"
+  },
+  {
+   "id": "v63_shock_baton",
+   "section": "unique_melee",
+   "en": "V63 shock baton",
+   "es": "Porra eléctrica V63",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/0f/V63_Shock_Baton.webp/revision/latest/scale-to-width-down/256?cb=20240703232135",
+   "wiki": "https://fallout.fandom.com/wiki/V63_shock_baton"
+  },
+  {
+   "id": "v63_zweihaender",
+   "section": "unique_melee",
+   "en": "V63 Zweihaender",
+   "es": "Zweihänder V63",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/9/95/FO76SV_Zweihaender.webp/revision/latest/scale-to-width-down/256?cb=20240619010440",
+   "wiki": "https://fallout.fandom.com/wiki/V63_Zweihaender"
+  },
+  {
+   "id": "whacker_smacker",
+   "section": "unique_melee",
+   "en": "Whacker Smacker",
+   "es": "Aporreador aporreado",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/f/f6/FO76_Whacker_Smacker.png/revision/latest/scale-to-width-down/256?cb=20221219182125",
+   "wiki": "https://fallout.fandom.com/wiki/Whacker_Smacker"
+  },
+  {
+   "id": "artillery_smoke_grenade",
+   "section": "grenades",
+   "en": "Artillery smoke grenade",
+   "es": "Granada de humo de artillería",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/51/VirtyandArtillery_Smoke_Grenade.png/revision/latest/scale-to-width-down/256?cb=20151209224319",
+   "wiki": "https://fallout.fandom.com/wiki/Artillery_smoke_grenade_(Fallout_76)"
+  },
+  {
+   "id": "baseball_grenade",
+   "section": "grenades",
+   "en": "Baseball grenade",
+   "es": "Granada de béisbol",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/e/ee/Baseball_grenade.png/revision/latest/scale-to-width-down/256?cb=20171013170307",
+   "wiki": "https://fallout.fandom.com/wiki/Baseball_grenade_(Fallout_76)"
+  },
+  {
+   "id": "bug_grenade",
+   "section": "grenades",
+   "en": "Bug grenade",
+   "es": "Granada de bichos",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/09/FO76WA_Bug_grenade.png/revision/latest/scale-to-width-down/256?cb=20190531072048",
+   "wiki": "https://fallout.fandom.com/wiki/Bug_grenade"
+  },
+  {
+   "id": "cryogenic_grenade",
+   "section": "grenades",
+   "en": "Cryogenic grenade",
+   "es": "Granada criogénica",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/03/FO76_Cryogenic_grenade.png/revision/latest/scale-to-width-down/256?cb=20210520204351",
+   "wiki": "https://fallout.fandom.com/wiki/Cryogenic_grenade_(Fallout_76)"
+  },
+  {
+   "id": "dross",
+   "section": "grenades",
+   "en": "Dross",
+   "es": "Escoria",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/e/e9/FO76_Dross.png/revision/latest?cb=20190319050319",
+   "wiki": "https://fallout.fandom.com/wiki/Dross"
+  },
+  {
+   "id": "dynamite",
+   "section": "grenades",
+   "en": "Dynamite",
+   "es": "Dinamita",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/f/fc/F76WL_Dynamite.png/revision/latest/scale-to-width-down/256?cb=20200421043005",
+   "wiki": "https://fallout.fandom.com/wiki/Dynamite_(Wastelanders)"
+  },
+  {
+   "id": "dynamite_bundle",
+   "section": "grenades",
+   "en": "Dynamite bundle",
+   "es": "Paquete de dinamita",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/b1/F76WL_Dynamite_bundle.png/revision/latest/scale-to-width-down/256?cb=20200421042949",
+   "wiki": "https://fallout.fandom.com/wiki/Dynamite_bundle"
+  },
+  {
+   "id": "explosive_bait",
+   "section": "grenades",
+   "en": "Explosive bait",
+   "es": "Cebo explosivo",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/a/a7/FO76_explosive_bait.png/revision/latest/scale-to-width-down/256?cb=20190130063613",
+   "wiki": "https://fallout.fandom.com/wiki/Explosive_bait"
+  },
+  {
+   "id": "flare",
+   "section": "grenades",
+   "en": "Flare",
+   "es": "Bengala",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/68/F76WL_flare.png/revision/latest/scale-to-width-down/256?cb=20200421043021",
+   "wiki": "https://fallout.fandom.com/wiki/Flare_(Wastelanders)"
+  },
+  {
+   "id": "floater_flamer_grenade",
+   "section": "grenades",
+   "en": "Floater flamer grenade",
+   "es": "Granada de flotador llameante",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/43/F76WL_floater_flame_grenade.png/revision/latest/scale-to-width-down/256?cb=20210520204251",
+   "wiki": "https://fallout.fandom.com/wiki/Floater_flamer_grenade"
+  },
+  {
+   "id": "floater_freezer_grenade",
+   "section": "grenades",
+   "en": "Floater freezer grenade",
+   "es": "Granada de flotador congelante",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/03/FO76_Cryogenic_grenade.png/revision/latest/scale-to-width-down/256?cb=20210520204351",
+   "wiki": "https://fallout.fandom.com/wiki/Floater_freezer_grenade"
+  },
+  {
+   "id": "floater_gnasher_grenade",
+   "section": "grenades",
+   "en": "Floater gnasher grenade",
+   "es": "Granada de flotador triturador",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/61/HalluciGen_gas_grenade.png/revision/latest/scale-to-width-down/256?cb=20160101010958",
+   "wiki": "https://fallout.fandom.com/wiki/Floater_gnasher_grenade"
+  },
+  {
+   "id": "fragmentation_grenade",
+   "section": "grenades",
+   "en": "Fragmentation grenade",
+   "es": "Granada de fragmentación",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/51/Fragmentation_grenade_%28Fallout_4%29.png/revision/latest/scale-to-width-down/256?cb=20251022223459",
+   "wiki": "https://fallout.fandom.com/wiki/Fragmentation_grenade_(Fallout_76)"
+  },
+  {
+   "id": "fragmentation_grenade_mirv",
+   "section": "grenades",
+   "en": "Fragmentation grenade MIRV",
+   "es": "MIRV de granadas de fragmentación",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/7/71/FO76_Fragmentation_grenade_MIRV.png/revision/latest/scale-to-width-down/256?cb=20210520205420",
+   "wiki": "https://fallout.fandom.com/wiki/Fragmentation_grenade_MIRV_(Fallout_76)"
+  },
+  {
+   "id": "hallucigen_gas_grenade",
+   "section": "grenades",
+   "en": "HalluciGen gas grenade",
+   "es": "Granada de gas HalluciGen",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/61/HalluciGen_gas_grenade.png/revision/latest/scale-to-width-down/256?cb=20160101010958",
+   "wiki": "https://fallout.fandom.com/wiki/HalluciGen_gas_grenade_(Fallout_76)"
+  },
+  {
+   "id": "molotov_cocktail",
+   "section": "grenades",
+   "en": "Molotov cocktail",
+   "es": "Cóctel molotov",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/3d/Fo4_Molotov_cocktail.png/revision/latest/scale-to-width-down/256?cb=20210224034908",
+   "wiki": "https://fallout.fandom.com/wiki/Molotov_cocktail_(Fallout_76)"
+  },
+  {
+   "id": "nuka_grenade",
+   "section": "grenades",
+   "en": "Nuka grenade",
+   "es": "Nuka granada",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/f/f4/FO76_Nuka_grenade.png/revision/latest/scale-to-width-down/256?cb=20210520170221",
+   "wiki": "https://fallout.fandom.com/wiki/Nuka_grenade_(Fallout_76)"
+  },
+  {
+   "id": "nuka_quantum_grenade",
+   "section": "grenades",
+   "en": "Nuka Quantum grenade",
+   "es": "Granada Nuka Quantum",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/5a/FO76_Nuka_quantum_grenade.png/revision/latest/scale-to-width-down/256?cb=20210520170039",
+   "wiki": "https://fallout.fandom.com/wiki/Nuka_Quantum_grenade_(Fallout_76)"
+  },
+  {
+   "id": "orbital_scan_beacon",
+   "section": "grenades",
+   "en": "Orbital scan beacon",
+   "es": "Baliza de análisis orbital",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/30/FO76_Orbital_scan_beacon.png/revision/latest/scale-to-width-down/256?cb=20210520165718",
+   "wiki": "https://fallout.fandom.com/wiki/Orbital_scan_beacon"
+  },
+  {
+   "id": "orbital_strike_beacon",
+   "section": "grenades",
+   "en": "Orbital strike beacon",
+   "es": "Baliza de ataque orbital",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/4c/FO76_Orbital_strike_beacon.png/revision/latest?cb=20210520165604",
+   "wiki": "https://fallout.fandom.com/wiki/Orbital_strike_beacon"
+  },
+  {
+   "id": "plasma_grenade",
+   "section": "grenades",
+   "en": "Plasma grenade",
+   "es": "Granada de plasma",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/d/d9/Plasma_grenade_%28Fallout_4%29.png/revision/latest/scale-to-width-down/256?cb=20160105000816",
+   "wiki": "https://fallout.fandom.com/wiki/Plasma_grenade_(Fallout_76)"
+  },
+  {
+   "id": "pulse_grenade",
+   "section": "grenades",
+   "en": "Pulse grenade",
+   "es": "Granada de impulsos",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/33/FO76_Pulse_grenade.png/revision/latest/scale-to-width-down/256?cb=20210520164717",
+   "wiki": "https://fallout.fandom.com/wiki/Pulse_grenade_(Fallout_76)"
+  },
+  {
+   "id": "pumpkin_grenade",
+   "section": "grenades",
+   "en": "Pumpkin grenade",
+   "es": "Granada de calabaza",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/c4/Pumpkin_grenade.png/revision/latest/scale-to-width-down/256?cb=20190215042515",
+   "wiki": "https://fallout.fandom.com/wiki/Pumpkin_grenade"
+  },
+  {
+   "id": "trail_fireworks",
+   "section": "grenades",
+   "en": "Trail fireworks",
+   "es": "Fuegos artificiales de estela",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/3e/FO76LR_trail_fireworks.png/revision/latest/scale-to-width-down/256?cb=20200830232247",
+   "wiki": "https://fallout.fandom.com/wiki/Trail_fireworks"
+  },
+  {
+   "id": "turbo_fert_fertilizer",
+   "section": "grenades",
+   "en": "Turbo-Fert fertilizer",
+   "es": "Fertilizante Turbo-Fert",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/51/FO76_Turbo-Fert_Fertilizer.png/revision/latest/scale-to-width-down/256?cb=20210520162545",
+   "wiki": "https://fallout.fandom.com/wiki/Turbo-Fert_fertilizer"
+  },
+  {
+   "id": "vertibot_signal_grenade",
+   "section": "grenades",
+   "en": "Vertibot signal grenade",
+   "es": "Granada de señales de vertibot",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/53/Vertibot_signal_grenade.png/revision/latest/scale-to-width-down/256?cb=20210520162059",
+   "wiki": "https://fallout.fandom.com/wiki/Vertibot_signal_grenade"
+  },
+  {
+   "id": "blast_mine",
+   "section": "mines",
+   "en": "Blast mine",
+   "es": "Mina explosiva",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/3a/Fo4_plasma_mine.png/revision/latest/scale-to-width-down/256?cb=20160203014651",
+   "wiki": "https://fallout.fandom.com/wiki/Blast_mine"
+  },
+  {
+   "id": "bottlecap_mine",
+   "section": "mines",
+   "en": "Bottlecap mine",
+   "es": "Mina de chapas",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/09/Bottlecap_mine_%28Fallout_4%29.png/revision/latest/scale-to-width-down/256?cb=20170222022504",
+   "wiki": "https://fallout.fandom.com/wiki/Bottlecap_mine_(Fallout_76)"
+  },
+  {
+   "id": "cryo_mine",
+   "section": "mines",
+   "en": "Cryo mine",
+   "es": "Criomina",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/6f/Fallout4_Cryo_mine.png/revision/latest/scale-to-width-down/256?cb=20200218163639",
+   "wiki": "https://fallout.fandom.com/wiki/Cryo_mine_(Fallout_76)"
+  },
+  {
+   "id": "fragmentation_mine",
+   "section": "mines",
+   "en": "Fragmentation mine",
+   "es": "Mina de fragmentación",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/8/8b/Fallout4_Fragmentation_mine.png/revision/latest/scale-to-width-down/256?cb=20160118215350",
+   "wiki": "https://fallout.fandom.com/wiki/Fragmentation_mine_(Fallout_76)"
+  },
+  {
+   "id": "nuke_mine",
+   "section": "mines",
+   "en": "Nuke mine",
+   "es": "Mina nuclear",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/60/Nuke_mine.png/revision/latest/scale-to-width-down/256?cb=20160123153416",
+   "wiki": "https://fallout.fandom.com/wiki/Nuke_mine_(Fallout_76)"
+  },
+  {
+   "id": "plasma_mine",
+   "section": "mines",
+   "en": "Plasma mine",
+   "es": "Mina de plasma",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/3a/Fo4_plasma_mine.png/revision/latest/scale-to-width-down/256?cb=20160203014651",
+   "wiki": "https://fallout.fandom.com/wiki/Plasma_mine_(Fallout_76)"
+  },
+  {
+   "id": "pulse_mine",
+   "section": "mines",
+   "en": "Pulse mine",
+   "es": "Mina electromagnética",
+   "esSource": "list",
+   "image": "https://static.wikia.nocookie.net/fallout/images/8/80/FO76_Pulse_mine.png/revision/latest/scale-to-width-down/256?cb=20190213233559",
+   "wiki": "https://fallout.fandom.com/wiki/Pulse_mine_(Fallout_76)"
+  },
+  {
+   "id": "red_fireworks_mine",
+   "section": "mines",
+   "en": "Red fireworks mine",
+   "es": "Mina de fuegos artificiales roja",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/c9/FO76_Red_firework_mine.png/revision/latest/scale-to-width-down/256?cb=20190824023101",
+   "wiki": "https://fallout.fandom.com/wiki/Red_fireworks_mine"
+  },
+  {
+   "id": "meat_cleaver",
+   "section": "throwing",
+   "en": "Meat cleaver",
+   "es": "Cuchillo de carnicero",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/54/FO76NW_Meat_cleaver.png/revision/latest/scale-to-width-down/256?cb=20200312230337",
+   "wiki": "https://fallout.fandom.com/wiki/Meat_cleaver"
+  },
+  {
+   "id": "sheepsquatch_shard",
+   "section": "throwing",
+   "en": "Sheepsquatch shard",
+   "es": "Fragmento de Sheepsquatch",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/8/8e/FO76WA_Sheepsquatch_shard.png/revision/latest/scale-to-width-down/256?cb=20190730093339",
+   "wiki": "https://fallout.fandom.com/wiki/Sheepsquatch_shard"
+  },
+  {
+   "id": "throwing_knife",
+   "section": "throwing",
+   "en": "Throwing knife",
+   "es": "Cuchillo arrojadizo",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/2/20/FO76_Throwing_knife.png/revision/latest/scale-to-width-down/256?cb=20200314144600",
+   "wiki": "https://fallout.fandom.com/wiki/Throwing_knife_(Fallout_76)"
+  },
+  {
+   "id": "tomahawk",
+   "section": "throwing",
+   "en": "Tomahawk",
+   "es": "Tomahawk",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/0c/FO76_Tomahawk.png/revision/latest/scale-to-width-down/256?cb=20210520162914",
+   "wiki": "https://fallout.fandom.com/wiki/Tomahawk_(Fallout_76)"
+  },
+  {
+   "id": "binoculars",
+   "section": "other",
+   "en": "Binoculars",
+   "es": "Prismáticos",
+   "esSource": "article",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/0f/FO76_Binoculars.png/revision/latest/scale-to-width-down/256?cb=20190307235018",
+   "wiki": "https://fallout.fandom.com/wiki/Binoculars_(Fallout_76)"
+  },
+  {
+   "id": "pearly_peepers",
+   "section": "other",
+   "en": "Pearly Peepers",
+   "es": "Prismáticos Pearly Peepers",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/1/13/FO76WA_Pearly_Peepers.png/revision/latest/scale-to-width-down/256?cb=20190412023849",
+   "wiki": "https://fallout.fandom.com/wiki/Pearly_Peepers"
+  },
+  {
+   "id": "prosnap_deluxe_camera",
+   "section": "other",
+   "en": "ProSnap Deluxe camera",
+   "es": "Cámara ProSnap Deluxe",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/33/Fo76WA_ProSnap_camera.png/revision/latest/scale-to-width-down/256?cb=20210521145308",
+   "wiki": "https://fallout.fandom.com/wiki/ProSnap_Deluxe_camera"
+  }
+ ]
+}
