@@ -1,0 +1,751 @@
+{
+ "category": "power_armor",
+ "sections": [
+  {
+   "id": "excavator",
+   "en": "Excavator power armor",
+   "es": "Servoarmadura excavadora",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/5a/FO76_Excavator_power_armor.png/revision/latest/scale-to-width-down/256?cb=20190913131420",
+   "wiki": "https://fallout.fandom.com/wiki/Excavator_power_armor"
+  },
+  {
+   "id": "hellcat",
+   "en": "Hellcat power armor",
+   "es": "Servoarmadura Arpía",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/e/e4/FO76_pa_hellcat.png/revision/latest/scale-to-width-down/256?cb=20250319232814",
+   "wiki": "https://fallout.fandom.com/wiki/Hellcat_power_armor"
+  },
+  {
+   "id": "raider_pa",
+   "en": "Raider power armor",
+   "es": "Servoarmadura de saqueador",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/a/a7/FO76_Raider_power_armor.png/revision/latest/scale-to-width-down/256?cb=20210311164531",
+   "wiki": "https://fallout.fandom.com/wiki/Raider_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "strangler_heart",
+   "en": "Strangler heart power armor",
+   "es": "Servoarmadura de corazón estrangulador",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/3f/FO76NW_Strangler_Heart_PA.png/revision/latest/scale-to-width-down/256?cb=20220104015453",
+   "wiki": "https://fallout.fandom.com/wiki/Strangler_heart_power_armor"
+  },
+  {
+   "id": "t45",
+   "en": "T-45 power armor",
+   "es": "Servoarmadura T-45",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/7/7f/FO76_T-45_power_armor.png/revision/latest/scale-to-width-down/256?cb=20190913132912",
+   "wiki": "https://fallout.fandom.com/wiki/T-45_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "t51b",
+   "en": "T-51b power armor",
+   "es": "Servoarmadura T-51b",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/c6/FO76_T-51_power_armor.png/revision/latest/scale-to-width-down/256?cb=20190913154931",
+   "wiki": "https://fallout.fandom.com/wiki/T-51b_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "t60",
+   "en": "T-60 power armor",
+   "es": "Servoarmadura T-60",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/4c/FO76_T-60_power_armor.png/revision/latest/scale-to-width-down/256?cb=20190913142605",
+   "wiki": "https://fallout.fandom.com/wiki/T-60_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "t65",
+   "en": "T-65 power armor",
+   "es": "Servoarmadura T-65",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/6b/F76WL_T65_Power_Armor.png/revision/latest/scale-to-width-down/256?cb=20200420180355",
+   "wiki": "https://fallout.fandom.com/wiki/T-65_power_armor"
+  },
+  {
+   "id": "ultracite",
+   "en": "Ultracite power armor",
+   "es": "Servoarmadura de ultracita",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/04/FO76_Ultracite_power_armor.png/revision/latest/scale-to-width-down/256?cb=20190913134331",
+   "wiki": "https://fallout.fandom.com/wiki/Ultracite_power_armor"
+  },
+  {
+   "id": "union",
+   "en": "Union power armor",
+   "es": "Servoarmadura del Sindicato",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/8/83/F076TP_Union_Power_Armor.png/revision/latest/scale-to-width-down/256?cb=20220918155027",
+   "wiki": "https://fallout.fandom.com/wiki/Union_power_armor"
+  },
+  {
+   "id": "vulcan",
+   "en": "Vulcan power armor",
+   "es": "Servoarmadura Vulcano",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/b9/Fo76_vulcan_power_armor.png/revision/latest/scale-to-width-down/256?cb=20250102002918",
+   "wiki": "https://fallout.fandom.com/wiki/Vulcan_power_armor"
+  },
+  {
+   "id": "x01",
+   "en": "X-01 power armor",
+   "es": "Servoarmadura X-01",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/d/d7/FO76_X-01_power_armor.png/revision/latest/scale-to-width-down/256?cb=20190913191345",
+   "wiki": "https://fallout.fandom.com/wiki/X-01_power_armor_(Fallout_76)"
+  }
+ ],
+ "items": [
+  {
+   "id": "excavator_helmet",
+   "section": "excavator",
+   "en": "Excavator helmet",
+   "es": "Casco de excavadora",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/49/FO76_Excavator_helmet.png/revision/latest/scale-to-width-down/256?cb=20190505171803",
+   "wiki": "https://fallout.fandom.com/wiki/Excavator_power_armor"
+  },
+  {
+   "id": "excavator_torso",
+   "section": "excavator",
+   "en": "Excavator torso",
+   "es": "Torso de excavadora",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/e/e5/FO76_Excavator_torso.png/revision/latest/scale-to-width-down/256?cb=20190505171816",
+   "wiki": "https://fallout.fandom.com/wiki/Excavator_power_armor"
+  },
+  {
+   "id": "excavator_left_arm",
+   "section": "excavator",
+   "en": "Excavator left arm",
+   "es": "Brazo izquierdo de excavadora",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/1/17/FO76_Excavator_left_arm.png/revision/latest/scale-to-width-down/256?cb=20190505171832",
+   "wiki": "https://fallout.fandom.com/wiki/Excavator_power_armor"
+  },
+  {
+   "id": "excavator_right_arm",
+   "section": "excavator",
+   "en": "Excavator right arm",
+   "es": "Brazo derecho de excavadora",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/43/FO76_Excavator_right_arm.png/revision/latest/scale-to-width-down/256?cb=20190505171904",
+   "wiki": "https://fallout.fandom.com/wiki/Excavator_power_armor"
+  },
+  {
+   "id": "excavator_left_leg",
+   "section": "excavator",
+   "en": "Excavator left leg",
+   "es": "Pierna izquierda de excavadora",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/2/2e/FO76_Excavator_left_and_right_leg.png/revision/latest/scale-to-width-down/256?cb=20190505171845",
+   "wiki": "https://fallout.fandom.com/wiki/Excavator_power_armor"
+  },
+  {
+   "id": "excavator_right_leg",
+   "section": "excavator",
+   "en": "Excavator right leg",
+   "es": "Pierna derecha de excavadora",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/2/2e/FO76_Excavator_left_and_right_leg.png/revision/latest/scale-to-width-down/256?cb=20190505171845",
+   "wiki": "https://fallout.fandom.com/wiki/Excavator_power_armor"
+  },
+  {
+   "id": "hellcat_helmet",
+   "section": "hellcat",
+   "en": "Hellcat helm",
+   "es": "Casco de Arpía",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/d/d1/FO76_PA_Hellcat_Helmet.png/revision/latest/scale-to-width-down/256?cb=20250323233204",
+   "wiki": "https://fallout.fandom.com/wiki/Hellcat_power_armor"
+  },
+  {
+   "id": "hellcat_torso",
+   "section": "hellcat",
+   "en": "Hellcat torso",
+   "es": "Torso de Arpía",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/e/ed/FO76_PA_Hellcat_Torso.png/revision/latest/scale-to-width-down/256?cb=20250323233256",
+   "wiki": "https://fallout.fandom.com/wiki/Hellcat_power_armor"
+  },
+  {
+   "id": "hellcat_left_arm",
+   "section": "hellcat",
+   "en": "Hellcat left arm",
+   "es": "Brazo izquierdo de Arpía",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/f/f7/FO76_PA_Hellcat_Arms.png/revision/latest/scale-to-width-down/256?cb=20250323233312",
+   "wiki": "https://fallout.fandom.com/wiki/Hellcat_power_armor"
+  },
+  {
+   "id": "hellcat_right_arm",
+   "section": "hellcat",
+   "en": "Hellcat right arm",
+   "es": "Brazo derecho de Arpía",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/f/f7/FO76_PA_Hellcat_Arms.png/revision/latest/scale-to-width-down/256?cb=20250323233312",
+   "wiki": "https://fallout.fandom.com/wiki/Hellcat_power_armor"
+  },
+  {
+   "id": "hellcat_left_leg",
+   "section": "hellcat",
+   "en": "Hellcat left leg",
+   "es": "Pierna izquierda de Arpía",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/9/92/FO76_PA_Hellcat_Legs.png/revision/latest/scale-to-width-down/256?cb=20250323233327",
+   "wiki": "https://fallout.fandom.com/wiki/Hellcat_power_armor"
+  },
+  {
+   "id": "hellcat_right_leg",
+   "section": "hellcat",
+   "en": "Hellcat right leg",
+   "es": "Pierna derecha de Arpía",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/9/92/FO76_PA_Hellcat_Legs.png/revision/latest/scale-to-width-down/256?cb=20250323233327",
+   "wiki": "https://fallout.fandom.com/wiki/Hellcat_power_armor"
+  },
+  {
+   "id": "raider_pa_helmet",
+   "section": "raider_pa",
+   "en": "Raider power helmet",
+   "es": "Casco de servoarmadura de saqueador",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/7/7f/FO76_Raider_power_armor_helmet.png/revision/latest/scale-to-width-down/256?cb=20190505195112",
+   "wiki": "https://fallout.fandom.com/wiki/Raider_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "raider_pa_torso",
+   "section": "raider_pa",
+   "en": "Raider power chest piece",
+   "es": "Torso de servoarmadura de saqueador",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/44/FO76_Raider_power_armor_torso.png/revision/latest/scale-to-width-down/256?cb=20190505195138",
+   "wiki": "https://fallout.fandom.com/wiki/Raider_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "raider_pa_left_arm",
+   "section": "raider_pa",
+   "en": "Raider power left arm",
+   "es": "Brazo izquierdo de servoarmadura de saqueador",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/48/FO76_Raider_power_armor_left_arm.png/revision/latest/scale-to-width-down/256?cb=20190505195210",
+   "wiki": "https://fallout.fandom.com/wiki/Raider_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "raider_pa_right_arm",
+   "section": "raider_pa",
+   "en": "Raider power right arm",
+   "es": "Brazo derecho de servoarmadura de saqueador",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/f/f4/FO76_Raider_power_armor_right_arm.png/revision/latest/scale-to-width-down/256?cb=20190505195157",
+   "wiki": "https://fallout.fandom.com/wiki/Raider_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "raider_pa_left_leg",
+   "section": "raider_pa",
+   "en": "Raider power left leg",
+   "es": "Pierna izquierda de servoarmadura de saqueador",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/c0/FO76_Raider_power_armor_leg.png/revision/latest/scale-to-width-down/256?cb=20190505195253",
+   "wiki": "https://fallout.fandom.com/wiki/Raider_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "raider_pa_right_leg",
+   "section": "raider_pa",
+   "en": "Raider power right leg",
+   "es": "Pierna derecha de servoarmadura de saqueador",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/c0/FO76_Raider_power_armor_leg.png/revision/latest/scale-to-width-down/256?cb=20190505195253",
+   "wiki": "https://fallout.fandom.com/wiki/Raider_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "strangler_heart_helmet",
+   "section": "strangler_heart",
+   "en": "Strangler heart helmet",
+   "es": "Casco de corazón estrangulador",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/3f/FO76NW_Strangler_Heart_PA.png/revision/latest/scale-to-width-down/256?cb=20220104015453",
+   "wiki": "https://fallout.fandom.com/wiki/Strangler_heart_power_armor"
+  },
+  {
+   "id": "strangler_heart_torso",
+   "section": "strangler_heart",
+   "en": "Strangler heart torso",
+   "es": "Torso de corazón estrangulador",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/3f/FO76NW_Strangler_Heart_PA.png/revision/latest/scale-to-width-down/256?cb=20220104015453",
+   "wiki": "https://fallout.fandom.com/wiki/Strangler_heart_power_armor"
+  },
+  {
+   "id": "strangler_heart_left_arm",
+   "section": "strangler_heart",
+   "en": "Strangler heart left arm",
+   "es": "Brazo izquierdo de corazón estrangulador",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/3f/FO76NW_Strangler_Heart_PA.png/revision/latest/scale-to-width-down/256?cb=20220104015453",
+   "wiki": "https://fallout.fandom.com/wiki/Strangler_heart_power_armor"
+  },
+  {
+   "id": "strangler_heart_right_arm",
+   "section": "strangler_heart",
+   "en": "Strangler heart right arm",
+   "es": "Brazo derecho de corazón estrangulador",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/3f/FO76NW_Strangler_Heart_PA.png/revision/latest/scale-to-width-down/256?cb=20220104015453",
+   "wiki": "https://fallout.fandom.com/wiki/Strangler_heart_power_armor"
+  },
+  {
+   "id": "strangler_heart_left_leg",
+   "section": "strangler_heart",
+   "en": "Strangler heart left leg",
+   "es": "Pierna izquierda de corazón estrangulador",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/3f/FO76NW_Strangler_Heart_PA.png/revision/latest/scale-to-width-down/256?cb=20220104015453",
+   "wiki": "https://fallout.fandom.com/wiki/Strangler_heart_power_armor"
+  },
+  {
+   "id": "strangler_heart_right_leg",
+   "section": "strangler_heart",
+   "en": "Strangler heart right leg",
+   "es": "Pierna derecha de corazón estrangulador",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/3f/FO76NW_Strangler_Heart_PA.png/revision/latest/scale-to-width-down/256?cb=20220104015453",
+   "wiki": "https://fallout.fandom.com/wiki/Strangler_heart_power_armor"
+  },
+  {
+   "id": "t45_helmet",
+   "section": "t45",
+   "en": "T-45 helmet",
+   "es": "Casco de T-45",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/3b/FO76_T-45_helmet.png/revision/latest/scale-to-width-down/256?cb=20190505195517",
+   "wiki": "https://fallout.fandom.com/wiki/T-45_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "t45_torso",
+   "section": "t45",
+   "en": "T-45 chest piece",
+   "es": "Torso de T-45",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/3f/FO76_T-45_torso.png/revision/latest/scale-to-width-down/256?cb=20190505195532",
+   "wiki": "https://fallout.fandom.com/wiki/T-45_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "t45_left_arm",
+   "section": "t45",
+   "en": "T-45 left arm",
+   "es": "Brazo izquierdo de T-45",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/3b/FO76_T-45_arm.png/revision/latest/scale-to-width-down/256?cb=20190505195545",
+   "wiki": "https://fallout.fandom.com/wiki/T-45_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "t45_right_arm",
+   "section": "t45",
+   "en": "T-45 right arm",
+   "es": "Brazo derecho de T-45",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/3b/FO76_T-45_arm.png/revision/latest/scale-to-width-down/256?cb=20190505195545",
+   "wiki": "https://fallout.fandom.com/wiki/T-45_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "t45_left_leg",
+   "section": "t45",
+   "en": "T-45 left leg",
+   "es": "Pierna izquierda de T-45",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/56/FO76_T-45_leg.png/revision/latest/scale-to-width-down/256?cb=20190505195555",
+   "wiki": "https://fallout.fandom.com/wiki/T-45_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "t45_right_leg",
+   "section": "t45",
+   "en": "T-45 right leg",
+   "es": "Pierna derecha de T-45",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/56/FO76_T-45_leg.png/revision/latest/scale-to-width-down/256?cb=20190505195555",
+   "wiki": "https://fallout.fandom.com/wiki/T-45_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "t51b_helmet",
+   "section": "t51b",
+   "en": "T-51b helmet",
+   "es": "Casco de T-51b",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/8/80/FO76_T-51_helmet.png/revision/latest/scale-to-width-down/256?cb=20190505195800",
+   "wiki": "https://fallout.fandom.com/wiki/T-51b_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "t51b_torso",
+   "section": "t51b",
+   "en": "T-51b chest piece",
+   "es": "Torso de T-51b",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/7/7e/FO76_T-51_torso.png/revision/latest/scale-to-width-down/256?cb=20190505195813",
+   "wiki": "https://fallout.fandom.com/wiki/T-51b_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "t51b_left_arm",
+   "section": "t51b",
+   "en": "T-51b left arm",
+   "es": "Brazo izquierdo de T-51b",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/9/94/FO76_T-51_arm.png/revision/latest/scale-to-width-down/256?cb=20190505195823",
+   "wiki": "https://fallout.fandom.com/wiki/T-51b_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "t51b_right_arm",
+   "section": "t51b",
+   "en": "T-51b right arm",
+   "es": "Brazo derecho de T-51b",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/9/94/FO76_T-51_arm.png/revision/latest/scale-to-width-down/256?cb=20190505195823",
+   "wiki": "https://fallout.fandom.com/wiki/T-51b_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "t51b_left_leg",
+   "section": "t51b",
+   "en": "T-51b left leg",
+   "es": "Pierna izquierda de T-51b",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/7/7d/FO76_T-51_leg.png/revision/latest/scale-to-width-down/256?cb=20190505195833",
+   "wiki": "https://fallout.fandom.com/wiki/T-51b_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "t51b_right_leg",
+   "section": "t51b",
+   "en": "T-51b right leg",
+   "es": "Pierna derecha de T-51b",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/7/7d/FO76_T-51_leg.png/revision/latest/scale-to-width-down/256?cb=20190505195833",
+   "wiki": "https://fallout.fandom.com/wiki/T-51b_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "t60_helmet",
+   "section": "t60",
+   "en": "T-60 helmet",
+   "es": "Casco de T-60",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/ce/FO76_T-60_helmet.png/revision/latest/scale-to-width-down/256?cb=20190505200005",
+   "wiki": "https://fallout.fandom.com/wiki/T-60_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "t60_torso",
+   "section": "t60",
+   "en": "T-60 chest piece",
+   "es": "Torso de T-60",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/59/FO76_T-60_torso.png/revision/latest/scale-to-width-down/256?cb=20190505200013",
+   "wiki": "https://fallout.fandom.com/wiki/T-60_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "t60_left_arm",
+   "section": "t60",
+   "en": "T-60 left arm",
+   "es": "Brazo izquierdo de T-60",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/d/da/FO76_T-60_arm.png/revision/latest/scale-to-width-down/256?cb=20190505200023",
+   "wiki": "https://fallout.fandom.com/wiki/T-60_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "t60_right_arm",
+   "section": "t60",
+   "en": "T-60 right arm",
+   "es": "Brazo derecho de T-60",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/d/da/FO76_T-60_arm.png/revision/latest/scale-to-width-down/256?cb=20190505200023",
+   "wiki": "https://fallout.fandom.com/wiki/T-60_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "t60_left_leg",
+   "section": "t60",
+   "en": "T-60 left leg",
+   "es": "Pierna izquierda de T-60",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/4f/FO76_T-60_leg.png/revision/latest/scale-to-width-down/256?cb=20190505200033",
+   "wiki": "https://fallout.fandom.com/wiki/T-60_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "t60_right_leg",
+   "section": "t60",
+   "en": "T-60 right leg",
+   "es": "Pierna derecha de T-60",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/4f/FO76_T-60_leg.png/revision/latest/scale-to-width-down/256?cb=20190505200033",
+   "wiki": "https://fallout.fandom.com/wiki/T-60_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "t65_helmet",
+   "section": "t65",
+   "en": "T-65 helmet",
+   "es": "Casco de T-65",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/6b/F76WL_T65_Power_Armor.png/revision/latest/scale-to-width-down/256?cb=20200420180355",
+   "wiki": "https://fallout.fandom.com/wiki/T-65_power_armor"
+  },
+  {
+   "id": "t65_torso",
+   "section": "t65",
+   "en": "T-65 chest piece",
+   "es": "Torso de T-65",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/6b/F76WL_T65_Power_Armor.png/revision/latest/scale-to-width-down/256?cb=20200420180355",
+   "wiki": "https://fallout.fandom.com/wiki/T-65_power_armor"
+  },
+  {
+   "id": "t65_left_arm",
+   "section": "t65",
+   "en": "T-65 left arm",
+   "es": "Brazo izquierdo de T-65",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/6b/F76WL_T65_Power_Armor.png/revision/latest/scale-to-width-down/256?cb=20200420180355",
+   "wiki": "https://fallout.fandom.com/wiki/T-65_power_armor"
+  },
+  {
+   "id": "t65_right_arm",
+   "section": "t65",
+   "en": "T-65 right arm",
+   "es": "Brazo derecho de T-65",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/6b/F76WL_T65_Power_Armor.png/revision/latest/scale-to-width-down/256?cb=20200420180355",
+   "wiki": "https://fallout.fandom.com/wiki/T-65_power_armor"
+  },
+  {
+   "id": "t65_left_leg",
+   "section": "t65",
+   "en": "T-65 left leg",
+   "es": "Pierna izquierda de T-65",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/6b/F76WL_T65_Power_Armor.png/revision/latest/scale-to-width-down/256?cb=20200420180355",
+   "wiki": "https://fallout.fandom.com/wiki/T-65_power_armor"
+  },
+  {
+   "id": "t65_right_leg",
+   "section": "t65",
+   "en": "T-65 right leg",
+   "es": "Pierna derecha de T-65",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/6b/F76WL_T65_Power_Armor.png/revision/latest/scale-to-width-down/256?cb=20200420180355",
+   "wiki": "https://fallout.fandom.com/wiki/T-65_power_armor"
+  },
+  {
+   "id": "ultracite_helmet",
+   "section": "ultracite",
+   "en": "Ultracite helm",
+   "es": "Casco de ultracita",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/e/ec/FO76_Ultracite_helmet.png/revision/latest/scale-to-width-down/256?cb=20190605193000",
+   "wiki": "https://fallout.fandom.com/wiki/Ultracite_power_armor"
+  },
+  {
+   "id": "ultracite_torso",
+   "section": "ultracite",
+   "en": "Ultracite torso",
+   "es": "Torso de ultracita",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/9/99/FO76_Ultracite_torso.png/revision/latest/scale-to-width-down/256?cb=20190605193013",
+   "wiki": "https://fallout.fandom.com/wiki/Ultracite_power_armor"
+  },
+  {
+   "id": "ultracite_left_arm",
+   "section": "ultracite",
+   "en": "Ultracite left arm",
+   "es": "Brazo izquierdo de ultracita",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/cc/FO76_Ultracite_arm.png/revision/latest/scale-to-width-down/256?cb=20190605193029",
+   "wiki": "https://fallout.fandom.com/wiki/Ultracite_power_armor"
+  },
+  {
+   "id": "ultracite_right_arm",
+   "section": "ultracite",
+   "en": "Ultracite right arm",
+   "es": "Brazo derecho de ultracita",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/cc/FO76_Ultracite_arm.png/revision/latest/scale-to-width-down/256?cb=20190605193029",
+   "wiki": "https://fallout.fandom.com/wiki/Ultracite_power_armor"
+  },
+  {
+   "id": "ultracite_left_leg",
+   "section": "ultracite",
+   "en": "Ultracite left leg",
+   "es": "Pierna izquierda de ultracita",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/e/eb/FO76_Ultracite_leg.png/revision/latest/scale-to-width-down/256?cb=20190605193041",
+   "wiki": "https://fallout.fandom.com/wiki/Ultracite_power_armor"
+  },
+  {
+   "id": "ultracite_right_leg",
+   "section": "ultracite",
+   "en": "Ultracite right leg",
+   "es": "Pierna derecha de ultracita",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/e/eb/FO76_Ultracite_leg.png/revision/latest/scale-to-width-down/256?cb=20190605193041",
+   "wiki": "https://fallout.fandom.com/wiki/Ultracite_power_armor"
+  },
+  {
+   "id": "union_helmet",
+   "section": "union",
+   "en": "Union helm",
+   "es": "Casco del Sindicato",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/42/Score_s10_powerarmor_union_helmet_l.png/revision/latest/scale-to-width-down/256?cb=20240812141733",
+   "wiki": "https://fallout.fandom.com/wiki/Union_power_armor"
+  },
+  {
+   "id": "union_torso",
+   "section": "union",
+   "en": "Union torso",
+   "es": "Torso del Sindicato",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/8/80/Score_s10_powerarmor_union_torso_l.png/revision/latest/scale-to-width-down/256?cb=20240812142029",
+   "wiki": "https://fallout.fandom.com/wiki/Union_power_armor"
+  },
+  {
+   "id": "union_left_arm",
+   "section": "union",
+   "en": "Union left arm",
+   "es": "Brazo izquierdo del Sindicato",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/50/Score_s10_powerarmor_union_armright_l.png/revision/latest/scale-to-width-down/256?cb=20240812142515",
+   "wiki": "https://fallout.fandom.com/wiki/Union_power_armor"
+  },
+  {
+   "id": "union_right_arm",
+   "section": "union",
+   "en": "Union right arm",
+   "es": "Brazo derecho del Sindicato",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/50/Score_s10_powerarmor_union_armright_l.png/revision/latest/scale-to-width-down/256?cb=20240812142515",
+   "wiki": "https://fallout.fandom.com/wiki/Union_power_armor"
+  },
+  {
+   "id": "union_left_leg",
+   "section": "union",
+   "en": "Union left leg",
+   "es": "Pierna izquierda del Sindicato",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/06/Score_s10_powerarmor_union_legleft_l.png/revision/latest/scale-to-width-down/256?cb=20240812143357",
+   "wiki": "https://fallout.fandom.com/wiki/Union_power_armor"
+  },
+  {
+   "id": "union_right_leg",
+   "section": "union",
+   "en": "Union right leg",
+   "es": "Pierna derecha del Sindicato",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/06/Score_s10_powerarmor_union_legleft_l.png/revision/latest/scale-to-width-down/256?cb=20240812143357",
+   "wiki": "https://fallout.fandom.com/wiki/Union_power_armor"
+  },
+  {
+   "id": "vulcan_helmet",
+   "section": "vulcan",
+   "en": "Vulcan helmet",
+   "es": "Casco de Vulcano",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/b9/Fo76_vulcan_power_armor.png/revision/latest/scale-to-width-down/256?cb=20250102002918",
+   "wiki": "https://fallout.fandom.com/wiki/Vulcan_power_armor"
+  },
+  {
+   "id": "vulcan_torso",
+   "section": "vulcan",
+   "en": "Vulcan torso",
+   "es": "Torso de Vulcano",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/f/f7/Atx_vulcan_pa_torso_d.png/revision/latest/scale-to-width-down/256?cb=20250316211100",
+   "wiki": "https://fallout.fandom.com/wiki/Vulcan_power_armor"
+  },
+  {
+   "id": "vulcan_left_arm",
+   "section": "vulcan",
+   "en": "Vulcan left arm",
+   "es": "Brazo izquierdo de Vulcano",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/b9/Fo76_vulcan_power_armor.png/revision/latest/scale-to-width-down/256?cb=20250102002918",
+   "wiki": "https://fallout.fandom.com/wiki/Vulcan_power_armor"
+  },
+  {
+   "id": "vulcan_right_arm",
+   "section": "vulcan",
+   "en": "Vulcan right arm",
+   "es": "Brazo derecho de Vulcano",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/b9/Fo76_vulcan_power_armor.png/revision/latest/scale-to-width-down/256?cb=20250102002918",
+   "wiki": "https://fallout.fandom.com/wiki/Vulcan_power_armor"
+  },
+  {
+   "id": "vulcan_left_leg",
+   "section": "vulcan",
+   "en": "Vulcan left leg",
+   "es": "Pierna izquierda de Vulcano",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/b9/Fo76_vulcan_power_armor.png/revision/latest/scale-to-width-down/256?cb=20250102002918",
+   "wiki": "https://fallout.fandom.com/wiki/Vulcan_power_armor"
+  },
+  {
+   "id": "vulcan_right_leg",
+   "section": "vulcan",
+   "en": "Vulcan right leg",
+   "es": "Pierna derecha de Vulcano",
+   "esSource": "translated",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/b9/Fo76_vulcan_power_armor.png/revision/latest/scale-to-width-down/256?cb=20250102002918",
+   "wiki": "https://fallout.fandom.com/wiki/Vulcan_power_armor"
+  },
+  {
+   "id": "x01_helmet",
+   "section": "x01",
+   "en": "X-01 helmet",
+   "es": "Casco de X-01",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/b7/FO76_X-01_helmet.png/revision/latest/scale-to-width-down/256?cb=20190605191805",
+   "wiki": "https://fallout.fandom.com/wiki/X-01_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "x01_torso",
+   "section": "x01",
+   "en": "X-01 torso",
+   "es": "Torso de X-01",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/0e/FO76_X-01_torso.png/revision/latest/scale-to-width-down/256?cb=20190605191836",
+   "wiki": "https://fallout.fandom.com/wiki/X-01_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "x01_left_arm",
+   "section": "x01",
+   "en": "X-01 left arm",
+   "es": "Brazo izquierdo de X-01",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/2/27/FO76_X-01_arm.png/revision/latest/scale-to-width-down/256?cb=20190605191856",
+   "wiki": "https://fallout.fandom.com/wiki/X-01_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "x01_right_arm",
+   "section": "x01",
+   "en": "X-01 right arm",
+   "es": "Brazo derecho de X-01",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/2/27/FO76_X-01_arm.png/revision/latest/scale-to-width-down/256?cb=20190605191856",
+   "wiki": "https://fallout.fandom.com/wiki/X-01_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "x01_left_leg",
+   "section": "x01",
+   "en": "X-01 left leg",
+   "es": "Pierna izquierda de X-01",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/b5/FO76_X-01_leg.png/revision/latest/scale-to-width-down/256?cb=20190605191914",
+   "wiki": "https://fallout.fandom.com/wiki/X-01_power_armor_(Fallout_76)"
+  },
+  {
+   "id": "x01_right_leg",
+   "section": "x01",
+   "en": "X-01 right leg",
+   "es": "Pierna derecha de X-01",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/b5/FO76_X-01_leg.png/revision/latest/scale-to-width-down/256?cb=20190605191914",
+   "wiki": "https://fallout.fandom.com/wiki/X-01_power_armor_(Fallout_76)"
+  }
+ ]
+}

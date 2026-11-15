@@ -1,46 +1,43 @@
 package com.futurehouser.f76checker
 
-import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.ComponentActivity
+import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.combinedClickable
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.lazy.rememberLazyListState
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Clear
+import androidx.compose.material.icons.filled.Home
+import androidx.compose.material.icons.filled.Menu
 import androidx.compose.material.icons.filled.MoreVert
-import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import coil.compose.SubcomposeAsyncImage
+import kotlinx.coroutines.flow.drop
 import kotlinx.coroutines.launch
-import java.text.Normalizer
 
-private val PipGreen = Color(0xFF3CFF7A)
-private val PipDim = Color(0xFF1F8A45)
-private val PipBg = Color(0xFF0B140D)
-private val PipSurface = Color(0xFF122016)
-private val PipHeader = Color(0xFF17301F)
+val PipGreen = Color(0xFF3CFF7A)
+val PipDim = Color(0xFF1F8A45)
+val PipBg = Color(0xFF0B140D)
+val PipSurface = Color(0xFF122016)
+val PipHeader = Color(0xFF17301F)
+val ImageBg = Color(0xFFDDE5DD)
 
 private val PipColors = darkColorScheme(
     primary = PipGreen,
@@ -58,12 +55,12 @@ private val PipColors = darkColorScheme(
     onSecondaryContainer = PipBg,
 )
 
-enum class Filter { ALL, OWNED, MISSING }
-
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val prefs = Prefs(this)
+        Sfx.enabled = prefs.sound
+        Sfx.init(this)
         setContent {
             MaterialTheme(colorScheme = PipColors) {
                 Surface(Modifier.fillMaxSize(), color = PipBg) { App(prefs) }
@@ -72,199 +69,188 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-private fun fold(s: String) =
-    Normalizer.normalize(s, Normalizer.Form.NFD).replace(Regex("\\p{M}+"), "").lowercase()
-
-@OptIn(ExperimentalMaterial3Api::class, ExperimentalFoundationApi::class)
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun App(prefs: Prefs) {
     val context = LocalContext.current
     val scope = rememberCoroutineScope()
     var lang by remember { mutableStateOf(prefs.lang) }
     val s = remember(lang) { Strings(lang) }
+    var sound by remember { mutableStateOf(prefs.sound) }
 
-    var categoryIndex by remember { mutableIntStateOf(0) }
-    val category = CATEGORIES[categoryIndex]
-    val items = remember(category) { Repository.items(context, category) }
-    var owned by remember(category) { mutableStateOf(prefs.owned(category.id)) }
-    var query by remember { mutableStateOf("") }
-    var filter by remember { mutableStateOf(Filter.ALL) }
+    // null = home page, otherwise the open category's id
+    var current by rememberSaveable { mutableStateOf<String?>(null) }
+    val category = CATEGORIES.firstOrNull { it.id == current }
+
+    val owned = remember {
+        mutableStateMapOf<String, Set<String>>().apply { CATEGORIES.forEach { put(it.id, prefs.owned(it.id)) } }
+    }
+    val data = remember { CATEGORIES.associate { it.id to Repository.load(context, it) } }
+
+    val drawerState = rememberDrawerState(DrawerValue.Closed)
+    LaunchedEffect(drawerState) {
+        snapshotFlow { drawerState.targetValue }.drop(1).collect { Sfx.play(Sound.DRAWER) }
+    }
     var menuOpen by remember { mutableStateOf(false) }
     var confirmReset by remember { mutableStateOf(false) }
 
-    // ---- updater state ----
+    fun open(id: String?) {
+        if (id != current) Sfx.play(if (id == null) Sound.BACK else Sound.NAV)
+        current = id
+        scope.launch { drawerState.close() }
+    }
+
+    BackHandler(enabled = drawerState.isOpen || current != null) {
+        if (drawerState.isOpen) scope.launch { drawerState.close() } else open(null)
+    }
+
+    fun setOwned(catId: String, newSet: Set<String>) {
+        owned[catId] = newSet
+        prefs.setOwned(catId, newSet)
+    }
+
+    fun toggle(cat: Category, item: Item) {
+        val cur = owned[cat.id].orEmpty()
+        val checking = item.id !in cur
+        val next = if (checking) cur + item.id else cur - item.id
+        setOwned(cat.id, next)
+        val sectionDone = checking && data.getValue(cat.id).items
+            .filter { it.section == item.section }.all { it.id in next }
+        Sfx.play(if (sectionDone && cat.isSets) Sound.COMPLETE else if (checking) Sound.CHECK else Sound.UNCHECK)
+    }
+
+    fun setSection(cat: Category, sectionId: String, check: Boolean) {
+        val ids = data.getValue(cat.id).items.filter { it.section == sectionId }.map { it.id }
+        val cur = owned[cat.id].orEmpty()
+        setOwned(cat.id, if (check) cur + ids else cur - ids.toSet())
+        Sfx.play(if (check) Sound.COMPLETE else Sound.UNCHECK)
+    }
+
+    // ---- updater ----
     var release by remember { mutableStateOf<Release?>(null) }
     var progress by remember { mutableStateOf<Float?>(null) }
     fun checkUpdates(manual: Boolean) = scope.launch {
         try {
             val r = Updater.checkForUpdate()
-            if (r != null && (manual || prefs.skippedVersion != r.version)) release = r
-            else if (manual) Toast.makeText(context, s.upToDate, Toast.LENGTH_SHORT).show()
+            if (r != null && (manual || prefs.skippedVersion != r.version)) {
+                release = r; Sfx.play(Sound.ALERT)
+            } else if (manual) Toast.makeText(context, s.upToDate, Toast.LENGTH_SHORT).show()
         } catch (e: Exception) {
             if (manual) Toast.makeText(context, s.updateError, Toast.LENGTH_SHORT).show()
         }
     }
     LaunchedEffect(Unit) { checkUpdates(manual = false) }
 
-    fun toggle(id: String) {
-        owned = if (id in owned) owned - id else owned + id
-        prefs.setOwned(category.id, owned)
-    }
-
-    val folded = fold(query.trim())
-    val visible = items.filter { item ->
-        (folded.isEmpty() || fold(item.en).contains(folded) || fold(item.es).contains(folded)) &&
-            when (filter) {
-                Filter.ALL -> true
-                Filter.OWNED -> item.id in owned
-                Filter.MISSING -> item.id !in owned
-            }
-    }
-    val grouped = visible.groupBy { it.section }
-    val ownedCount = items.count { it.id in owned }
-
-    Scaffold(
-        containerColor = PipBg,
-        topBar = {
-            TopAppBar(
-                colors = TopAppBarDefaults.topAppBarColors(containerColor = PipBg, titleContentColor = PipGreen),
-                title = {
-                    Text(
-                        "F76 CHECKER",
-                        fontFamily = FontFamily.Monospace,
-                        fontWeight = FontWeight.Bold,
-                        letterSpacing = 2.sp
+    ModalNavigationDrawer(
+        drawerState = drawerState,
+        drawerContent = {
+            ModalDrawerSheet(drawerContainerColor = PipSurface, drawerContentColor = PipGreen) {
+                Column(Modifier.verticalScroll(rememberScrollState())) {
+                    Text("F76 CHECKER", fontFamily = FontFamily.Monospace, fontWeight = FontWeight.Bold,
+                        fontSize = 22.sp, letterSpacing = 2.sp, modifier = Modifier.padding(20.dp))
+                    HorizontalDivider(color = PipDim)
+                    Spacer(Modifier.height(8.dp))
+                    DrawerItem(
+                        label = s.home,
+                        selected = current == null,
+                        icon = { Icon(Icons.Filled.Home, null) },
+                        onClick = { open(null) }
                     )
-                },
-                actions = {
-                    LanguageToggle(lang) { lang = it; prefs.lang = it }
-                    Box {
-                        IconButton(onClick = { menuOpen = true }) {
-                            Icon(Icons.Filled.MoreVert, contentDescription = null, tint = PipGreen)
-                        }
-                        DropdownMenu(expanded = menuOpen, onDismissRequest = { menuOpen = false }) {
-                            DropdownMenuItem(
-                                text = { Text(s.checkUpdates) },
-                                onClick = { menuOpen = false; checkUpdates(manual = true) })
-                            DropdownMenuItem(
-                                text = { Text(s.resetAll) },
-                                onClick = { menuOpen = false; confirmReset = true })
-                            DropdownMenuItem(
-                                text = { Text("v${BuildConfig.VERSION_NAME}", color = PipDim) },
-                                enabled = false, onClick = {})
-                        }
-                    }
-                }
-            )
-        }
-    ) { padding ->
-        Column(Modifier.padding(padding).fillMaxSize()) {
-            if (CATEGORIES.size > 1) {
-                ScrollableTabRow(
-                    selectedTabIndex = categoryIndex,
-                    containerColor = PipBg,
-                    contentColor = PipGreen,
-                    edgePadding = 8.dp
-                ) {
-                    CATEGORIES.forEachIndexed { i, c ->
-                        Tab(selected = i == categoryIndex, onClick = { categoryIndex = i },
-                            text = { Text(c.name(lang)) })
-                    }
-                }
-            }
-
-            // progress
-            Column(Modifier.padding(horizontal = 16.dp, vertical = 4.dp)) {
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    Text(category.name(lang).uppercase(), fontFamily = FontFamily.Monospace,
-                        fontWeight = FontWeight.Bold, modifier = Modifier.weight(1f))
-                    Text("$ownedCount / ${items.size}", fontFamily = FontFamily.Monospace)
-                }
-                Spacer(Modifier.height(6.dp))
-                LinearProgressIndicator(
-                    progress = { if (items.isEmpty()) 0f else ownedCount.toFloat() / items.size },
-                    modifier = Modifier.fillMaxWidth().height(6.dp).clip(RoundedCornerShape(3.dp)),
-                    color = PipGreen,
-                    trackColor = PipHeader,
-                )
-            }
-
-            OutlinedTextField(
-                value = query,
-                onValueChange = { query = it },
-                placeholder = { Text(s.search) },
-                singleLine = true,
-                leadingIcon = { Icon(Icons.Filled.Search, null) },
-                trailingIcon = {
-                    if (query.isNotEmpty()) IconButton(onClick = { query = "" }) { Icon(Icons.Filled.Clear, null) }
-                },
-                modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 6.dp),
-                colors = OutlinedTextFieldDefaults.colors(
-                    focusedBorderColor = PipGreen, unfocusedBorderColor = PipDim,
-                    cursorColor = PipGreen, focusedTextColor = PipGreen, unfocusedTextColor = PipGreen,
-                )
-            )
-
-            Row(Modifier.padding(horizontal = 16.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                listOf(Filter.ALL to s.all, Filter.OWNED to s.owned, Filter.MISSING to s.missing).forEach { (f, label) ->
-                    FilterChip(
-                        selected = filter == f,
-                        onClick = { filter = f },
-                        label = { Text(label) },
-                        colors = FilterChipDefaults.filterChipColors(
-                            selectedContainerColor = PipGreen, selectedLabelColor = PipBg, labelColor = PipGreen
-                        ),
-                        border = FilterChipDefaults.filterChipBorder(
-                            enabled = true, selected = filter == f, borderColor = PipDim
+                    Text(s.categories.uppercase(), fontFamily = FontFamily.Monospace, fontSize = 12.sp,
+                        color = PipDim, modifier = Modifier.padding(start = 28.dp, top = 16.dp, bottom = 8.dp))
+                    CATEGORIES.forEach { c ->
+                        val total = data.getValue(c.id).items.size
+                        val have = data.getValue(c.id).items.count { it.id in owned[c.id].orEmpty() }
+                        DrawerItem(
+                            label = c.name(lang),
+                            selected = current == c.id,
+                            icon = { Text(if (c.isSets) "▣" else "▤", fontSize = 18.sp) },
+                            badge = "$have/$total",
+                            onClick = { open(c.id) }
                         )
-                    )
+                    }
+                    Spacer(Modifier.height(16.dp))
                 }
             }
-
-            val listState = rememberLazyListState()
-            LaunchedEffect(filter, query, categoryIndex) { listState.scrollToItem(0) }
-            if (visible.isEmpty()) {
-                Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) { Text(s.noResults, color = PipDim) }
-            } else LazyColumn(state = listState, modifier = Modifier.fillMaxSize(),
-                contentPadding = PaddingValues(bottom = 24.dp)) {
-                grouped.forEach { (section, list) ->
-                    stickyHeader(key = "h_$section") {
-                        val all = items.filter { it.section == section }
-                        Row(
-                            Modifier.fillMaxWidth().background(PipHeader).padding(horizontal = 16.dp, vertical = 8.dp)
-                        ) {
-                            Text((s.sections[section] ?: section).uppercase(), fontFamily = FontFamily.Monospace,
-                                fontWeight = FontWeight.Bold, fontSize = 13.sp, modifier = Modifier.weight(1f))
-                            Text("${all.count { it.id in owned }}/${all.size}", fontFamily = FontFamily.Monospace,
-                                fontSize = 13.sp)
+        }
+    ) {
+        Scaffold(
+            containerColor = PipBg,
+            topBar = {
+                TopAppBar(
+                    colors = TopAppBarDefaults.topAppBarColors(containerColor = PipBg, titleContentColor = PipGreen),
+                    navigationIcon = {
+                        IconButton(onClick = { scope.launch { drawerState.open() } }) {
+                            Icon(Icons.Filled.Menu, contentDescription = s.openMenu, tint = PipGreen)
                         }
-                    }
-                    items(list, key = { it.id }) { item ->
-                        ItemRow(
-                            item = item,
-                            lang = lang,
-                            checked = item.id in owned,
-                            onToggle = { toggle(item.id) },
-                            onLongPress = {
-                                context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(item.wiki)))
+                    },
+                    title = {
+                        Text(
+                            category?.name(lang)?.uppercase() ?: "F76 CHECKER",
+                            fontFamily = FontFamily.Monospace,
+                            fontWeight = FontWeight.Bold,
+                            letterSpacing = 1.sp,
+                            maxLines = 1,
+                        )
+                    },
+                    actions = {
+                        LanguageToggle(lang) { lang = it; prefs.lang = it; Sfx.play(Sound.LANG) }
+                        Box {
+                            IconButton(onClick = { menuOpen = true; Sfx.play(Sound.CLICK) }) {
+                                Icon(Icons.Filled.MoreVert, contentDescription = null, tint = PipGreen)
                             }
-                        )
+                            DropdownMenu(expanded = menuOpen, onDismissRequest = { menuOpen = false }) {
+                                DropdownMenuItem(
+                                    text = { Text(if (sound) s.soundOn else s.soundOff) },
+                                    onClick = {
+                                        sound = !sound; prefs.sound = sound; Sfx.enabled = sound
+                                        Sfx.play(Sound.CLICK); menuOpen = false
+                                    })
+                                DropdownMenuItem(
+                                    text = { Text(s.checkUpdates) },
+                                    onClick = { menuOpen = false; Sfx.play(Sound.CLICK); checkUpdates(manual = true) })
+                                if (category != null) DropdownMenuItem(
+                                    text = { Text(s.resetAll) },
+                                    onClick = { menuOpen = false; Sfx.play(Sound.ALERT); confirmReset = true })
+                                DropdownMenuItem(
+                                    text = { Text("v${BuildConfig.VERSION_NAME}", color = PipDim) },
+                                    enabled = false, onClick = {})
+                            }
+                        }
                     }
+                )
+            }
+        ) { padding ->
+            Box(Modifier.padding(padding).fillMaxSize()) {
+                if (category == null) {
+                    HomeScreen(lang, s, data, owned) { open(it.id) }
+                } else {
+                    CategoryScreen(
+                        category = category,
+                        data = data.getValue(category.id),
+                        owned = owned[category.id].orEmpty(),
+                        lang = lang,
+                        s = s,
+                        onToggle = { toggle(category, it) },
+                        onSetSection = { sec, check -> setSection(category, sec, check) },
+                    )
                 }
             }
         }
     }
 
-    if (confirmReset) {
+    if (confirmReset && category != null) {
         AlertDialog(
             onDismissRequest = { confirmReset = false },
             text = { Text(s.resetConfirm) },
             confirmButton = {
                 TextButton(onClick = {
-                    owned = emptySet(); prefs.setOwned(category.id, owned); confirmReset = false
+                    setOwned(category.id, emptySet()); confirmReset = false; Sfx.play(Sound.UNCHECK)
                 }) { Text(s.ok) }
             },
-            dismissButton = { TextButton(onClick = { confirmReset = false }) { Text(s.cancel) } },
+            dismissButton = {
+                TextButton(onClick = { confirmReset = false; Sfx.play(Sound.CLICK) }) { Text(s.cancel) }
+            },
             containerColor = PipSurface,
         )
     }
@@ -292,6 +278,7 @@ fun App(prefs: Prefs) {
             },
             confirmButton = {
                 if (progress == null) TextButton(onClick = {
+                    Sfx.play(Sound.CLICK)
                     if (!Updater.canInstall(context)) {
                         Toast.makeText(context, s.allowInstall, Toast.LENGTH_LONG).show()
                         Updater.openInstallPermissionSettings(context)
@@ -304,6 +291,7 @@ fun App(prefs: Prefs) {
                             Updater.install(context, apk)
                             release = null
                         } catch (e: Exception) {
+                            Sfx.play(Sound.ALERT)
                             Toast.makeText(context, s.downloadError, Toast.LENGTH_SHORT).show()
                         } finally {
                             progress = null
@@ -313,13 +301,40 @@ fun App(prefs: Prefs) {
             },
             dismissButton = {
                 if (progress == null) Row {
-                    TextButton(onClick = { prefs.skippedVersion = r.version; release = null }) { Text(s.skip) }
-                    TextButton(onClick = { release = null }) { Text(s.later) }
+                    TextButton(onClick = {
+                        prefs.skippedVersion = r.version; release = null; Sfx.play(Sound.CLICK)
+                    }) { Text(s.skip) }
+                    TextButton(onClick = { release = null; Sfx.play(Sound.CLICK) }) { Text(s.later) }
                 }
             },
             containerColor = PipSurface,
         )
     }
+}
+
+@Composable
+private fun DrawerItem(
+    label: String,
+    selected: Boolean,
+    icon: @Composable () -> Unit,
+    badge: String? = null,
+    onClick: () -> Unit,
+) {
+    NavigationDrawerItem(
+        label = { Text(label, fontWeight = if (selected) FontWeight.Bold else FontWeight.Normal) },
+        selected = selected,
+        onClick = onClick,
+        icon = icon,
+        badge = badge?.let { { Text(it, fontFamily = FontFamily.Monospace, fontSize = 12.sp) } },
+        colors = NavigationDrawerItemDefaults.colors(
+            selectedContainerColor = PipHeader,
+            unselectedContainerColor = Color.Transparent,
+            selectedTextColor = PipGreen, unselectedTextColor = PipGreen.copy(alpha = 0.85f),
+            selectedIconColor = PipGreen, unselectedIconColor = PipGreen.copy(alpha = 0.85f),
+            selectedBadgeColor = PipGreen, unselectedBadgeColor = PipDim,
+        ),
+        modifier = Modifier.padding(horizontal = 12.dp)
+    )
 }
 
 @OptIn(ExperimentalFoundationApi::class)
@@ -337,50 +352,9 @@ private fun LanguageToggle(lang: Lang, onChange: (Lang) -> Unit) {
                 color = if (sel) PipBg else PipGreen,
                 modifier = Modifier
                     .background(if (sel) PipGreen else Color.Transparent)
-                    .combinedClickable(onClick = { onChange(l) })
+                    .combinedClickable(onClick = { if (!sel) onChange(l) })
                     .padding(horizontal = 12.dp, vertical = 6.dp)
             )
         }
-    }
-}
-
-@OptIn(ExperimentalFoundationApi::class)
-@Composable
-private fun ItemRow(item: Item, lang: Lang, checked: Boolean, onToggle: () -> Unit, onLongPress: () -> Unit) {
-    Row(
-        Modifier
-            .fillMaxWidth()
-            .combinedClickable(onClick = onToggle, onLongClick = onLongPress)
-            .padding(horizontal = 12.dp, vertical = 6.dp),
-        verticalAlignment = Alignment.CenterVertically
-    ) {
-        Box(
-            Modifier.size(72.dp).clip(RoundedCornerShape(8.dp)).background(Color(0xFFDDE5DD)),
-            contentAlignment = Alignment.Center
-        ) {
-            SubcomposeAsyncImage(
-                model = item.image,
-                contentDescription = item.name(lang),
-                contentScale = ContentScale.Fit,
-                modifier = Modifier.fillMaxSize().padding(4.dp),
-                loading = { CircularProgressIndicator(Modifier.size(20.dp), strokeWidth = 2.dp, color = PipDim) },
-                error = { Text("?", color = PipDim, fontSize = 24.sp) }
-            )
-        }
-        Spacer(Modifier.width(12.dp))
-        Column(Modifier.weight(1f)) {
-            Text(item.name(lang), fontWeight = FontWeight.SemiBold, fontSize = 16.sp,
-                maxLines = 2, overflow = TextOverflow.Ellipsis,
-                color = if (checked) PipGreen else PipGreen.copy(alpha = 0.9f))
-            val other = item.name(if (lang == Lang.ES) Lang.EN else Lang.ES)
-            if (other != item.name(lang)) {
-                Text(other, fontSize = 12.sp, color = PipDim, maxLines = 1, overflow = TextOverflow.Ellipsis)
-            }
-        }
-        Checkbox(
-            checked = checked,
-            onCheckedChange = { onToggle() },
-            colors = CheckboxDefaults.colors(checkedColor = PipGreen, uncheckedColor = PipDim, checkmarkColor = PipBg)
-        )
     }
 }

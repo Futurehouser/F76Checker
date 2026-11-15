@@ -30,6 +30,16 @@ for x in items:
     es, src = ES[x['en']]
     out.append(dict(id=i, section=sub, en=x['en'], es=es, esSource=src, image=x['img'],
                     wiki='https://fallout.fandom.com/wiki/' + x['link'].replace(' ', '_')))
-json.dump({'category': 'weapons', 'items': out},
+SECTIONS = [
+    ('pistols_rifles', 'Pistols / Rifles', 'Pistolas / Rifles'), ('pistols', 'Pistols', 'Pistolas'),
+    ('rifles', 'Rifles', 'Rifles'), ('shotguns', 'Shotguns', 'Escopetas'), ('bows', 'Bows', 'Arcos'),
+    ('heavy', 'Heavy guns', 'Armas pesadas'), ('explosive', 'Explosive heavy guns', 'Armas pesadas explosivas'),
+    ('unique_ranged', 'Unique (ranged)', 'Únicas (a distancia)'), ('one_handed', 'Melee: one-handed', 'Cuerpo a cuerpo: una mano'),
+    ('two_handed', 'Melee: two-handed', 'Cuerpo a cuerpo: dos manos'), ('unarmed', 'Unarmed', 'Desarmado'),
+    ('unique_melee', 'Unique (melee)', 'Únicas (cuerpo a cuerpo)'), ('grenades', 'Grenades', 'Granadas'),
+    ('mines', 'Mines', 'Minas'), ('throwing', 'Throwing knives', 'Cuchillos arrojadizos'), ('other', 'Other', 'Otras'),
+]
+sections = [dict(id=i, en=en, es=es) for i, en, es in SECTIONS]
+json.dump({'category': 'weapons', 'sections': sections, 'items': out},
           open(os.path.join(OUT, 'weapons.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print(len(out), collections.Counter(o['esSource'] for o in out))

@@ -20,8 +20,8 @@ android {
         applicationId = "com.futurehouser.f76checker"
         minSdk = 26
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 2
+        versionName = "1.1.0"
         // GitHub repository the updater checks for new releases
         buildConfigField("String", "GITHUB_REPO", "\"Futurehouser/F76Checker\"")
     }

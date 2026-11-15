@@ -1,5 +1,87 @@
 {
  "category": "weapons",
+ "sections": [
+  {
+   "id": "pistols_rifles",
+   "en": "Pistols / Rifles",
+   "es": "Pistolas / Rifles"
+  },
+  {
+   "id": "pistols",
+   "en": "Pistols",
+   "es": "Pistolas"
+  },
+  {
+   "id": "rifles",
+   "en": "Rifles",
+   "es": "Rifles"
+  },
+  {
+   "id": "shotguns",
+   "en": "Shotguns",
+   "es": "Escopetas"
+  },
+  {
+   "id": "bows",
+   "en": "Bows",
+   "es": "Arcos"
+  },
+  {
+   "id": "heavy",
+   "en": "Heavy guns",
+   "es": "Armas pesadas"
+  },
+  {
+   "id": "explosive",
+   "en": "Explosive heavy guns",
+   "es": "Armas pesadas explosivas"
+  },
+  {
+   "id": "unique_ranged",
+   "en": "Unique (ranged)",
+   "es": "Únicas (a distancia)"
+  },
+  {
+   "id": "one_handed",
+   "en": "Melee: one-handed",
+   "es": "Cuerpo a cuerpo: una mano"
+  },
+  {
+   "id": "two_handed",
+   "en": "Melee: two-handed",
+   "es": "Cuerpo a cuerpo: dos manos"
+  },
+  {
+   "id": "unarmed",
+   "en": "Unarmed",
+   "es": "Desarmado"
+  },
+  {
+   "id": "unique_melee",
+   "en": "Unique (melee)",
+   "es": "Únicas (cuerpo a cuerpo)"
+  },
+  {
+   "id": "grenades",
+   "en": "Grenades",
+   "es": "Granadas"
+  },
+  {
+   "id": "mines",
+   "en": "Mines",
+   "es": "Minas"
+  },
+  {
+   "id": "throwing",
+   "en": "Throwing knives",
+   "es": "Cuchillos arrojadizos"
+  },
+  {
+   "id": "other",
+   "en": "Other",
+   "es": "Otras"
+  }
+ ],
  "items": [
   {
    "id": "enclave_plasma_gun",

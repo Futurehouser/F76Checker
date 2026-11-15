@@ -1,0 +1,1125 @@
+{
+ "category": "armor",
+ "sections": [
+  {
+   "id": "arctic_marine",
+   "en": "Arctic marine armor",
+   "es": "Armadura de marine polar",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/9/95/FO76FW_armor_arctic_marine_set.png/revision/latest/scale-to-width-down/256?cb=20220918170423",
+   "wiki": "https://fallout.fandom.com/wiki/Arctic_marine_armor"
+  },
+  {
+   "id": "botsmith",
+   "en": "Botsmith armor",
+   "es": "Armadura de artesana de robots",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/09/FO76TYM_armor_botsmith_set.png/revision/latest/scale-to-width-down/256?cb=20220918170927",
+   "wiki": "https://fallout.fandom.com/wiki/Botsmith_armor"
+  },
+  {
+   "id": "bos_recon",
+   "en": "Brotherhood recon armor",
+   "es": "Armadura de reconocimiento de la Hermandad",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/4a/FO76SD_BoS_recon_armor_set.png/revision/latest/scale-to-width-down/256?cb=20220918174750",
+   "wiki": "https://fallout.fandom.com/wiki/Brotherhood_recon_armor"
+  },
+  {
+   "id": "civil_engineer",
+   "en": "Civil Engineer armor",
+   "es": "Armadura de ingeniero civil",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/0f/FO76AC2_Muni_Armor.png/revision/latest/scale-to-width-down/256?cb=20240204130809",
+   "wiki": "https://fallout.fandom.com/wiki/Civil_Engineer_armor"
+  },
+  {
+   "id": "combat",
+   "en": "Combat armor",
+   "es": "Armadura de combate",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/f/ff/Fo76_armor_heavy_combat_set.png/revision/latest/scale-to-width-down/256?cb=20220919104139",
+   "wiki": "https://fallout.fandom.com/wiki/Combat_armor_(Fallout_76)"
+  },
+  {
+   "id": "covert_scout",
+   "en": "Covert scout armor",
+   "es": "Armadura de scout sigilosa",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/4d/FO76LL_armor_covert_set.png/revision/latest/scale-to-width-down/256?cb=20220919115435",
+   "wiki": "https://fallout.fandom.com/wiki/Covert_scout_armor"
+  },
+  {
+   "id": "forest_scout",
+   "en": "Forest scout armor",
+   "es": "Armadura de scout del bosque",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/a/a6/FO76_armor_forest_scout_set.png/revision/latest/scale-to-width-down/256?cb=20220919115900",
+   "wiki": "https://fallout.fandom.com/wiki/Forest_scout_armor"
+  },
+  {
+   "id": "leather",
+   "en": "Leather armor",
+   "es": "Armadura de cuero",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/4c/Fo76_armor_heavy_leather_set.png/revision/latest/scale-to-width-down/256?cb=20230121110705",
+   "wiki": "https://fallout.fandom.com/wiki/Leather_armor_(Fallout_76)"
+  },
+  {
+   "id": "marine",
+   "en": "Marine armor",
+   "es": "Armadura de marine",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/2/2d/Fo76_armor_marine_set.png/revision/latest/scale-to-width-down/256?cb=20220918172601",
+   "wiki": "https://fallout.fandom.com/wiki/Marine_armor_(Fallout_76)"
+  },
+  {
+   "id": "metal",
+   "en": "Metal armor",
+   "es": "Armadura de metal",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/6c/Fo76_armor_heavy_metal_set.png/revision/latest/scale-to-width-down/256?cb=20230121112058",
+   "wiki": "https://fallout.fandom.com/wiki/Metal_armor_(Fallout_76)"
+  },
+  {
+   "id": "raider",
+   "en": "Raider armor",
+   "es": "Armadura de saqueador",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/01/FO76_armor_heavy_raider_set.png/revision/latest/scale-to-width-down/256?cb=20230121114850",
+   "wiki": "https://fallout.fandom.com/wiki/Raider_armor_(Fallout_76)"
+  },
+  {
+   "id": "robot",
+   "en": "Robot armor",
+   "es": "Armadura robótica",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/09/Fo76_armor_heavy_robot_set.png/revision/latest/scale-to-width-down/256?cb=20220918173740",
+   "wiki": "https://fallout.fandom.com/wiki/Robot_armor_(Fallout_76)"
+  },
+  {
+   "id": "secret_service",
+   "en": "Secret Service armor",
+   "es": "Armadura del servicio secreto",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/2/2d/Fo76WL_armor_Secret_Service_set.png/revision/latest/scale-to-width-down/256?cb=20220919122007",
+   "wiki": "https://fallout.fandom.com/wiki/Secret_Service_armor"
+  },
+  {
+   "id": "solar",
+   "en": "Solar armor",
+   "es": "Armadura solar",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/e/e9/FO76NW_vault_94_scout_set.png/revision/latest/scale-to-width-down/256?cb=20220919123151",
+   "wiki": "https://fallout.fandom.com/wiki/Solar_armor"
+  },
+  {
+   "id": "thorn",
+   "en": "Thorn armor",
+   "es": "Armadura con púas",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/e/e9/FO76NW_vault_94_scout_set.png/revision/latest/scale-to-width-down/256?cb=20220919123151",
+   "wiki": "https://fallout.fandom.com/wiki/Thorn_armor"
+  },
+  {
+   "id": "trapper",
+   "en": "Trapper armor",
+   "es": "Armadura de trampero",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/8/86/FO76_armor_trapper_set.png/revision/latest/scale-to-width-down/256?cb=20220919124148",
+   "wiki": "https://fallout.fandom.com/wiki/Trapper_armor_(Fallout_76)"
+  },
+  {
+   "id": "urban_scout",
+   "en": "Urban scout armor",
+   "es": "Armadura de scout urbano",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/a/ac/FO76_armor_urban_scout_set.png/revision/latest/scale-to-width-down/256?cb=20220919124712",
+   "wiki": "https://fallout.fandom.com/wiki/Urban_scout_armor"
+  },
+  {
+   "id": "wood",
+   "en": "Wood armor",
+   "es": "Armadura de madera",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/42/FO76_armor_wood_set.png/revision/latest/scale-to-width-down/256?cb=20220919123556",
+   "wiki": "https://fallout.fandom.com/wiki/Wood_armor"
+  }
+ ],
+ "items": [
+  {
+   "id": "arctic_marine_helmet",
+   "section": "arctic_marine",
+   "en": "Arctic marine armor helmet",
+   "es": "Casco de armadura de marine polar",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/b2/FO76FW_armor_arctic_helmet.png/revision/latest/scale-to-width-down/256?cb=20210909121325",
+   "wiki": "https://fallout.fandom.com/wiki/Arctic_marine_armor"
+  },
+  {
+   "id": "arctic_marine_torso",
+   "section": "arctic_marine",
+   "en": "Arctic marine armor chest piece",
+   "es": "Torso de marine polar",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/d/db/FO76FW_armor_arctic_torso.png/revision/latest/scale-to-width-down/256?cb=20211205170106",
+   "wiki": "https://fallout.fandom.com/wiki/Arctic_marine_armor"
+  },
+  {
+   "id": "arctic_marine_left_arm",
+   "section": "arctic_marine",
+   "en": "Arctic marine armor left arm",
+   "es": "Brazo izquierdo de marine polar",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/bc/FO76FW_armor_arctic_arms.png/revision/latest/scale-to-width-down/256?cb=20210909121330",
+   "wiki": "https://fallout.fandom.com/wiki/Arctic_marine_armor"
+  },
+  {
+   "id": "arctic_marine_right_arm",
+   "section": "arctic_marine",
+   "en": "Arctic marine armor right arm",
+   "es": "Brazo derecho de marine polar",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/bc/FO76FW_armor_arctic_arms.png/revision/latest/scale-to-width-down/256?cb=20210909121330",
+   "wiki": "https://fallout.fandom.com/wiki/Arctic_marine_armor"
+  },
+  {
+   "id": "arctic_marine_left_leg",
+   "section": "arctic_marine",
+   "en": "Arctic marine armor left leg",
+   "es": "Pierna izquierda de marine polar",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/8/83/FO76FW_armor_arctic_legs.png/revision/latest/scale-to-width-down/256?cb=20210909121334",
+   "wiki": "https://fallout.fandom.com/wiki/Arctic_marine_armor"
+  },
+  {
+   "id": "arctic_marine_right_leg",
+   "section": "arctic_marine",
+   "en": "Arctic marine armor right leg",
+   "es": "Pierna derecha de marine polar",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/8/83/FO76FW_armor_arctic_legs.png/revision/latest/scale-to-width-down/256?cb=20210909121334",
+   "wiki": "https://fallout.fandom.com/wiki/Arctic_marine_armor"
+  },
+  {
+   "id": "botsmith_helmet",
+   "section": "botsmith",
+   "en": "Botsmith helmet",
+   "es": "Casco de artesana de robots",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/02/FO76TYM_armor_botsmith_sentrybot_helmet.png/revision/latest/scale-to-width-down/256?cb=20220114124439",
+   "wiki": "https://fallout.fandom.com/wiki/Botsmith_armor"
+  },
+  {
+   "id": "botsmith_torso",
+   "section": "botsmith",
+   "en": "Botsmith chest piece",
+   "es": "Torso de artesana de robots",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/1/1f/FO76TYM_armor_botsmith_torso.png/revision/latest/scale-to-width-down/256?cb=20220114111353",
+   "wiki": "https://fallout.fandom.com/wiki/Botsmith_armor"
+  },
+  {
+   "id": "botsmith_left_arm",
+   "section": "botsmith",
+   "en": "Botsmith left arm",
+   "es": "Brazo izquierdo de artesana de robots",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/63/FO76TYM_armor_botsmith_arms.png/revision/latest/scale-to-width-down/256?cb=20220114111352",
+   "wiki": "https://fallout.fandom.com/wiki/Botsmith_armor"
+  },
+  {
+   "id": "botsmith_right_arm",
+   "section": "botsmith",
+   "en": "Botsmith right arm",
+   "es": "Brazo derecho de artesana de robots",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/63/FO76TYM_armor_botsmith_arms.png/revision/latest/scale-to-width-down/256?cb=20220114111352",
+   "wiki": "https://fallout.fandom.com/wiki/Botsmith_armor"
+  },
+  {
+   "id": "botsmith_left_leg",
+   "section": "botsmith",
+   "en": "Botsmith left leg",
+   "es": "Pierna izquierda de artesana de robots",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/9/9c/FO76TYM_armor_botsmith_legs.png/revision/latest/scale-to-width-down/256?cb=20220114111353",
+   "wiki": "https://fallout.fandom.com/wiki/Botsmith_armor"
+  },
+  {
+   "id": "botsmith_right_leg",
+   "section": "botsmith",
+   "en": "Botsmith right leg",
+   "es": "Pierna derecha de artesana de robots",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/9/9c/FO76TYM_armor_botsmith_legs.png/revision/latest/scale-to-width-down/256?cb=20220114111353",
+   "wiki": "https://fallout.fandom.com/wiki/Botsmith_armor"
+  },
+  {
+   "id": "bos_recon_helmet",
+   "section": "bos_recon",
+   "en": "Brotherhood recon helmet",
+   "es": "Casco de reconocimiento de la Hermandad",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/52/FO76SD_armor_BOSrecon_helm.png/revision/latest/scale-to-width-down/256?cb=20201126073645",
+   "wiki": "https://fallout.fandom.com/wiki/Brotherhood_recon_armor"
+  },
+  {
+   "id": "bos_recon_torso",
+   "section": "bos_recon",
+   "en": "Brotherhood recon chest piece",
+   "es": "Torso de reconocimiento de la Hermandad",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/4a/FO76SD_BoS_recon_armor_set.png/revision/latest/scale-to-width-down/256?cb=20220918174750",
+   "wiki": "https://fallout.fandom.com/wiki/Brotherhood_recon_armor"
+  },
+  {
+   "id": "bos_recon_left_arm",
+   "section": "bos_recon",
+   "en": "Brotherhood recon left arm",
+   "es": "Brazo izquierdo de reconocimiento de la Hermandad",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/42/Fo76SD_armor_BoS_Recon_arms.png/revision/latest/scale-to-width-down/256?cb=20220108201538",
+   "wiki": "https://fallout.fandom.com/wiki/Brotherhood_recon_armor"
+  },
+  {
+   "id": "bos_recon_right_arm",
+   "section": "bos_recon",
+   "en": "Brotherhood recon right arm",
+   "es": "Brazo derecho de reconocimiento de la Hermandad",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/42/Fo76SD_armor_BoS_Recon_arms.png/revision/latest/scale-to-width-down/256?cb=20220108201538",
+   "wiki": "https://fallout.fandom.com/wiki/Brotherhood_recon_armor"
+  },
+  {
+   "id": "bos_recon_left_leg",
+   "section": "bos_recon",
+   "en": "Brotherhood recon left leg",
+   "es": "Pierna izquierda de reconocimiento de la Hermandad",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/d/d9/Fo76SD_armor_BoS_Recon_legs.png/revision/latest/scale-to-width-down/256?cb=20220108201536",
+   "wiki": "https://fallout.fandom.com/wiki/Brotherhood_recon_armor"
+  },
+  {
+   "id": "bos_recon_right_leg",
+   "section": "bos_recon",
+   "en": "Brotherhood recon right leg",
+   "es": "Pierna derecha de reconocimiento de la Hermandad",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/d/d9/Fo76SD_armor_BoS_Recon_legs.png/revision/latest/scale-to-width-down/256?cb=20220108201536",
+   "wiki": "https://fallout.fandom.com/wiki/Brotherhood_recon_armor"
+  },
+  {
+   "id": "civil_engineer_helmet",
+   "section": "civil_engineer",
+   "en": "Civil Engineer helmet",
+   "es": "Casco de ingeniero civil",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/0f/FO76AC2_Muni_Armor.png/revision/latest/scale-to-width-down/256?cb=20240204130809",
+   "wiki": "https://fallout.fandom.com/wiki/Civil_Engineer_armor"
+  },
+  {
+   "id": "civil_engineer_torso",
+   "section": "civil_engineer",
+   "en": "Civil Engineer chest piece",
+   "es": "Torso de ingeniero civil",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/0f/FO76AC2_Muni_Armor.png/revision/latest/scale-to-width-down/256?cb=20240204130809",
+   "wiki": "https://fallout.fandom.com/wiki/Civil_Engineer_armor"
+  },
+  {
+   "id": "civil_engineer_left_arm",
+   "section": "civil_engineer",
+   "en": "Civil Engineer left arm",
+   "es": "Brazo izquierdo de ingeniero civil",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/0f/FO76AC2_Muni_Armor.png/revision/latest/scale-to-width-down/256?cb=20240204130809",
+   "wiki": "https://fallout.fandom.com/wiki/Civil_Engineer_armor"
+  },
+  {
+   "id": "civil_engineer_right_arm",
+   "section": "civil_engineer",
+   "en": "Civil Engineer right arm",
+   "es": "Brazo derecho de ingeniero civil",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/0f/FO76AC2_Muni_Armor.png/revision/latest/scale-to-width-down/256?cb=20240204130809",
+   "wiki": "https://fallout.fandom.com/wiki/Civil_Engineer_armor"
+  },
+  {
+   "id": "civil_engineer_left_leg",
+   "section": "civil_engineer",
+   "en": "Civil Engineer left leg",
+   "es": "Pierna izquierda de ingeniero civil",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/0f/FO76AC2_Muni_Armor.png/revision/latest/scale-to-width-down/256?cb=20240204130809",
+   "wiki": "https://fallout.fandom.com/wiki/Civil_Engineer_armor"
+  },
+  {
+   "id": "civil_engineer_right_leg",
+   "section": "civil_engineer",
+   "en": "Civil Engineer right leg",
+   "es": "Pierna derecha de ingeniero civil",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/0f/FO76AC2_Muni_Armor.png/revision/latest/scale-to-width-down/256?cb=20240204130809",
+   "wiki": "https://fallout.fandom.com/wiki/Civil_Engineer_armor"
+  },
+  {
+   "id": "combat_helmet",
+   "section": "combat",
+   "en": "Combat armor helmet",
+   "es": "Casco de armadura de combate",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/9/94/FO76_armor_combat_helmet.png/revision/latest/scale-to-width-down/256?cb=20220109122512",
+   "wiki": "https://fallout.fandom.com/wiki/Combat_armor_(Fallout_76)"
+  },
+  {
+   "id": "combat_torso",
+   "section": "combat",
+   "en": "Combat armor chest piece",
+   "es": "Torso de combate",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/bf/FO76_armor_combat_heavy_torso.png/revision/latest/scale-to-width-down/256?cb=20220109122512",
+   "wiki": "https://fallout.fandom.com/wiki/Combat_armor_(Fallout_76)"
+  },
+  {
+   "id": "combat_left_arm",
+   "section": "combat",
+   "en": "Combat armor left arm",
+   "es": "Brazo izquierdo de combate",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/55/FO76_armor_combat_heavy_arms.png/revision/latest/scale-to-width-down/256?cb=20220109122511",
+   "wiki": "https://fallout.fandom.com/wiki/Combat_armor_(Fallout_76)"
+  },
+  {
+   "id": "combat_right_arm",
+   "section": "combat",
+   "en": "Combat armor right arm",
+   "es": "Brazo derecho de combate",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/55/FO76_armor_combat_heavy_arms.png/revision/latest/scale-to-width-down/256?cb=20220109122511",
+   "wiki": "https://fallout.fandom.com/wiki/Combat_armor_(Fallout_76)"
+  },
+  {
+   "id": "combat_left_leg",
+   "section": "combat",
+   "en": "Combat armor left leg",
+   "es": "Pierna izquierda de combate",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/e/e6/FO76_armor_combat_heavy_legs.png/revision/latest/scale-to-width-down/256?cb=20220109122514",
+   "wiki": "https://fallout.fandom.com/wiki/Combat_armor_(Fallout_76)"
+  },
+  {
+   "id": "combat_right_leg",
+   "section": "combat",
+   "en": "Combat armor right leg",
+   "es": "Pierna derecha de combate",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/e/e6/FO76_armor_combat_heavy_legs.png/revision/latest/scale-to-width-down/256?cb=20220109122514",
+   "wiki": "https://fallout.fandom.com/wiki/Combat_armor_(Fallout_76)"
+  },
+  {
+   "id": "covert_scout_helmet",
+   "section": "covert_scout",
+   "en": "Covert scout armor mask",
+   "es": "Máscara de armadura de scout sigilosa",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/7/79/FO76LL_armor_covert_mask.png/revision/latest/scale-to-width-down/256?cb=20210516151728",
+   "wiki": "https://fallout.fandom.com/wiki/Covert_scout_armor"
+  },
+  {
+   "id": "covert_scout_torso",
+   "section": "covert_scout",
+   "en": "Covert scout armor chest piece",
+   "es": "Coraza de armadura de scout sigilosa",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/64/FO76LL_armor_covert_torso.png/revision/latest/scale-to-width-down/256?cb=20210514145227",
+   "wiki": "https://fallout.fandom.com/wiki/Covert_scout_armor"
+  },
+  {
+   "id": "covert_scout_left_arm",
+   "section": "covert_scout",
+   "en": "Covert scout armor left arm",
+   "es": "Brazo izquierdo de armadura de scout sigilosa",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/3d/FO76LL_armor_covert_arms.png/revision/latest/scale-to-width-down/256?cb=20210517144924",
+   "wiki": "https://fallout.fandom.com/wiki/Covert_scout_armor"
+  },
+  {
+   "id": "covert_scout_right_arm",
+   "section": "covert_scout",
+   "en": "Covert scout armor right arm",
+   "es": "Brazo derecho de armadura de scout sigilosa",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/3d/FO76LL_armor_covert_arms.png/revision/latest/scale-to-width-down/256?cb=20210517144924",
+   "wiki": "https://fallout.fandom.com/wiki/Covert_scout_armor"
+  },
+  {
+   "id": "covert_scout_left_leg",
+   "section": "covert_scout",
+   "en": "Covert scout armor left leg",
+   "es": "Pierna izquierda de armadura de scout sigilosa",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/4e/FO76LL_armor_covert_legs.png/revision/latest/scale-to-width-down/256?cb=20210517154005",
+   "wiki": "https://fallout.fandom.com/wiki/Covert_scout_armor"
+  },
+  {
+   "id": "covert_scout_right_leg",
+   "section": "covert_scout",
+   "en": "Covert scout armor right leg",
+   "es": "Pierna derecha de armadura de scout sigilosa",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/4e/FO76LL_armor_covert_legs.png/revision/latest/scale-to-width-down/256?cb=20210517154005",
+   "wiki": "https://fallout.fandom.com/wiki/Covert_scout_armor"
+  },
+  {
+   "id": "forest_scout_helmet",
+   "section": "forest_scout",
+   "en": "Forest scout armor mask",
+   "es": "Máscara de armadura de scout del bosque",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/be/FO76_armor_forest_mask.png/revision/latest/scale-to-width-down/256?cb=20210517154256",
+   "wiki": "https://fallout.fandom.com/wiki/Forest_scout_armor"
+  },
+  {
+   "id": "forest_scout_torso",
+   "section": "forest_scout",
+   "en": "Forest scout armor chest piece",
+   "es": "Coraza de armadura de scout del bosque",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/67/FO76_armor_forest_torso.png/revision/latest/scale-to-width-down/256?cb=20210517151944",
+   "wiki": "https://fallout.fandom.com/wiki/Forest_scout_armor"
+  },
+  {
+   "id": "forest_scout_left_arm",
+   "section": "forest_scout",
+   "en": "Forest scout armor left arm",
+   "es": "Brazo izquierdo de armadura de scout del bosque",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/30/FO76_armor_forest_arms.png/revision/latest/scale-to-width-down/256?cb=20210517151700",
+   "wiki": "https://fallout.fandom.com/wiki/Forest_scout_armor"
+  },
+  {
+   "id": "forest_scout_right_arm",
+   "section": "forest_scout",
+   "en": "Forest scout armor right arm",
+   "es": "Brazo derecho de armadura de scout del bosque",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/30/FO76_armor_forest_arms.png/revision/latest/scale-to-width-down/256?cb=20210517151700",
+   "wiki": "https://fallout.fandom.com/wiki/Forest_scout_armor"
+  },
+  {
+   "id": "forest_scout_left_leg",
+   "section": "forest_scout",
+   "en": "Forest scout armor left leg",
+   "es": "Pierna izquierda de armadura de scout del bosque",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/bc/FO76_armor_forest_legs.png/revision/latest/scale-to-width-down/256?cb=20210517160429",
+   "wiki": "https://fallout.fandom.com/wiki/Forest_scout_armor"
+  },
+  {
+   "id": "forest_scout_right_leg",
+   "section": "forest_scout",
+   "en": "Forest scout armor right leg",
+   "es": "Pierna derecha de armadura de scout del bosque",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/bc/FO76_armor_forest_legs.png/revision/latest/scale-to-width-down/256?cb=20210517160429",
+   "wiki": "https://fallout.fandom.com/wiki/Forest_scout_armor"
+  },
+  {
+   "id": "leather_helmet",
+   "section": "leather",
+   "en": "Leather helmet",
+   "es": "Casco de cuero",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/4c/Fo76_armor_heavy_leather_set.png/revision/latest/scale-to-width-down/256?cb=20230121110705",
+   "wiki": "https://fallout.fandom.com/wiki/Leather_armor_(Fallout_76)",
+   "note": "no-ingame-helmet"
+  },
+  {
+   "id": "leather_torso",
+   "section": "leather",
+   "en": "Leather chest piece",
+   "es": "Torso de cuero",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/d/da/FO76_armor_heavy_leather_torso.png/revision/latest/scale-to-width-down/256?cb=20220222162052",
+   "wiki": "https://fallout.fandom.com/wiki/Leather_armor_(Fallout_76)"
+  },
+  {
+   "id": "leather_left_arm",
+   "section": "leather",
+   "en": "Leather left arm",
+   "es": "Brazo izquierdo de cuero",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/3e/FO76_armor_heavy_leather_arms.png/revision/latest/scale-to-width-down/256?cb=20220222164846",
+   "wiki": "https://fallout.fandom.com/wiki/Leather_armor_(Fallout_76)"
+  },
+  {
+   "id": "leather_right_arm",
+   "section": "leather",
+   "en": "Leather right arm",
+   "es": "Brazo derecho de cuero",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/3/3e/FO76_armor_heavy_leather_arms.png/revision/latest/scale-to-width-down/256?cb=20220222164846",
+   "wiki": "https://fallout.fandom.com/wiki/Leather_armor_(Fallout_76)"
+  },
+  {
+   "id": "leather_left_leg",
+   "section": "leather",
+   "en": "Leather left leg",
+   "es": "Pierna izquierda de cuero",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/8/8d/FO76_armor_heavy_leather_legs.png/revision/latest/scale-to-width-down/256?cb=20220220121927",
+   "wiki": "https://fallout.fandom.com/wiki/Leather_armor_(Fallout_76)"
+  },
+  {
+   "id": "leather_right_leg",
+   "section": "leather",
+   "en": "Leather right leg",
+   "es": "Pierna derecha de cuero",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/8/8d/FO76_armor_heavy_leather_legs.png/revision/latest/scale-to-width-down/256?cb=20220220121927",
+   "wiki": "https://fallout.fandom.com/wiki/Leather_armor_(Fallout_76)"
+  },
+  {
+   "id": "marine_helmet",
+   "section": "marine",
+   "en": "Marine armor helmet",
+   "es": "Casco de armadura de marine",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/a/a4/FO76_armor_marine_helmet.png/revision/latest/scale-to-width-down/256?cb=20210909121318",
+   "wiki": "https://fallout.fandom.com/wiki/Marine_armor_(Fallout_76)"
+  },
+  {
+   "id": "marine_torso",
+   "section": "marine",
+   "en": "Marine armor chest piece",
+   "es": "Torso de marine",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/c6/FO76_armor_marine_torso.png/revision/latest/scale-to-width-down/256?cb=20210909121326",
+   "wiki": "https://fallout.fandom.com/wiki/Marine_armor_(Fallout_76)"
+  },
+  {
+   "id": "marine_left_arm",
+   "section": "marine",
+   "en": "Marine armor left arm",
+   "es": "Brazo izquierdo de marine",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/9/99/FO76_armor_marine_arms.png/revision/latest/scale-to-width-down/256?cb=20210909121330",
+   "wiki": "https://fallout.fandom.com/wiki/Marine_armor_(Fallout_76)"
+  },
+  {
+   "id": "marine_right_arm",
+   "section": "marine",
+   "en": "Marine armor right arm",
+   "es": "Brazo derecho de marine",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/9/99/FO76_armor_marine_arms.png/revision/latest/scale-to-width-down/256?cb=20210909121330",
+   "wiki": "https://fallout.fandom.com/wiki/Marine_armor_(Fallout_76)"
+  },
+  {
+   "id": "marine_left_leg",
+   "section": "marine",
+   "en": "Marine armor left leg",
+   "es": "Pierna izquierda de marine",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/e/ef/FO76_armor_marine_legs.png/revision/latest/scale-to-width-down/256?cb=20210909121329",
+   "wiki": "https://fallout.fandom.com/wiki/Marine_armor_(Fallout_76)"
+  },
+  {
+   "id": "marine_right_leg",
+   "section": "marine",
+   "en": "Marine armor right leg",
+   "es": "Pierna derecha de marine",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/e/ef/FO76_armor_marine_legs.png/revision/latest/scale-to-width-down/256?cb=20210909121329",
+   "wiki": "https://fallout.fandom.com/wiki/Marine_armor_(Fallout_76)"
+  },
+  {
+   "id": "metal_helmet",
+   "section": "metal",
+   "en": "Metal helmet",
+   "es": "Casco de metal",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/9/93/FO76_armor_metal_helmet.png/revision/latest/scale-to-width-down/256?cb=20220110113620",
+   "wiki": "https://fallout.fandom.com/wiki/Metal_armor_(Fallout_76)"
+  },
+  {
+   "id": "metal_torso",
+   "section": "metal",
+   "en": "Metal chest piece",
+   "es": "Torso de metal",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/c1/FO76_armor_metal_torso.png/revision/latest/scale-to-width-down/256?cb=20210427111352",
+   "wiki": "https://fallout.fandom.com/wiki/Metal_armor_(Fallout_76)"
+  },
+  {
+   "id": "metal_left_arm",
+   "section": "metal",
+   "en": "Metal left arm",
+   "es": "Brazo izquierdo de metal",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/49/FO76_armor_metal_left_arm.png/revision/latest/scale-to-width-down/256?cb=20210429075647",
+   "wiki": "https://fallout.fandom.com/wiki/Metal_armor_(Fallout_76)"
+  },
+  {
+   "id": "metal_right_arm",
+   "section": "metal",
+   "en": "Metal right arm",
+   "es": "Brazo derecho de metal",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/9/98/FO76_armor_metal_right_arm.png/revision/latest/scale-to-width-down/256?cb=20210429081046",
+   "wiki": "https://fallout.fandom.com/wiki/Metal_armor_(Fallout_76)"
+  },
+  {
+   "id": "metal_left_leg",
+   "section": "metal",
+   "en": "Metal left leg",
+   "es": "Pierna izquierda de metal",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/47/Fo76_armor_metal_left_leg.png/revision/latest/scale-to-width-down/256?cb=20210430100801",
+   "wiki": "https://fallout.fandom.com/wiki/Metal_armor_(Fallout_76)"
+  },
+  {
+   "id": "metal_right_leg",
+   "section": "metal",
+   "en": "Metal right leg",
+   "es": "Pierna derecha de metal",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/a/a7/Fo76_armor_metal_right_leg.png/revision/latest/scale-to-width-down/256?cb=20210430102743",
+   "wiki": "https://fallout.fandom.com/wiki/Metal_armor_(Fallout_76)"
+  },
+  {
+   "id": "raider_helmet",
+   "section": "raider",
+   "en": "Raider helmet",
+   "es": "Casco de saqueador",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/01/FO76_armor_heavy_raider_set.png/revision/latest/scale-to-width-down/256?cb=20230121114850",
+   "wiki": "https://fallout.fandom.com/wiki/Raider_armor_(Fallout_76)",
+   "note": "no-ingame-helmet"
+  },
+  {
+   "id": "raider_torso",
+   "section": "raider",
+   "en": "Raider chest piece",
+   "es": "Torso de saqueador",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/c2/FO76_armor_sturdy_raider_torso_1.png/revision/latest/scale-to-width-down/256?cb=20210424105127",
+   "wiki": "https://fallout.fandom.com/wiki/Raider_armor_(Fallout_76)"
+  },
+  {
+   "id": "raider_left_arm",
+   "section": "raider",
+   "en": "Raider left arm",
+   "es": "Brazo izquierdo de saqueador",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/8/83/FO76_armor_heavy_raider_arms.png/revision/latest/scale-to-width-down/256?cb=20220222153620",
+   "wiki": "https://fallout.fandom.com/wiki/Raider_armor_(Fallout_76)"
+  },
+  {
+   "id": "raider_right_arm",
+   "section": "raider",
+   "en": "Raider right arm",
+   "es": "Brazo derecho de saqueador",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/8/83/FO76_armor_heavy_raider_arms.png/revision/latest/scale-to-width-down/256?cb=20220222153620",
+   "wiki": "https://fallout.fandom.com/wiki/Raider_armor_(Fallout_76)"
+  },
+  {
+   "id": "raider_left_leg",
+   "section": "raider",
+   "en": "Raider left leg",
+   "es": "Pierna izquierda de saqueador",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/6c/FO76_armor_heavy_raider_legs.png/revision/latest/scale-to-width-down/256?cb=20220222153648",
+   "wiki": "https://fallout.fandom.com/wiki/Raider_armor_(Fallout_76)"
+  },
+  {
+   "id": "raider_right_leg",
+   "section": "raider",
+   "en": "Raider right leg",
+   "es": "Pierna derecha de saqueador",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/6c/FO76_armor_heavy_raider_legs.png/revision/latest/scale-to-width-down/256?cb=20220222153648",
+   "wiki": "https://fallout.fandom.com/wiki/Raider_armor_(Fallout_76)"
+  },
+  {
+   "id": "robot_helmet",
+   "section": "robot",
+   "en": "Robot helmet",
+   "es": "Casco de robot",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/d/d1/Fo76_armor_sentry_helmet.png/revision/latest/scale-to-width-down/256?cb=20220108195050",
+   "wiki": "https://fallout.fandom.com/wiki/Robot_armor_(Fallout_76)"
+  },
+  {
+   "id": "robot_torso",
+   "section": "robot",
+   "en": "Robot chest piece",
+   "es": "Torso de robot",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/9/99/Fo76_armor_heavy_robot_torso.png/revision/latest/scale-to-width-down/256?cb=20220108193554",
+   "wiki": "https://fallout.fandom.com/wiki/Robot_armor_(Fallout_76)"
+  },
+  {
+   "id": "robot_left_arm",
+   "section": "robot",
+   "en": "Robot left arm",
+   "es": "Brazo izquierdo de robot",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/b0/Fo76_armor_heavy_robot_arms.png/revision/latest/scale-to-width-down/256?cb=20220108193558",
+   "wiki": "https://fallout.fandom.com/wiki/Robot_armor_(Fallout_76)"
+  },
+  {
+   "id": "robot_right_arm",
+   "section": "robot",
+   "en": "Robot right arm",
+   "es": "Brazo derecho de robot",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/b0/Fo76_armor_heavy_robot_arms.png/revision/latest/scale-to-width-down/256?cb=20220108193558",
+   "wiki": "https://fallout.fandom.com/wiki/Robot_armor_(Fallout_76)"
+  },
+  {
+   "id": "robot_left_leg",
+   "section": "robot",
+   "en": "Robot left leg",
+   "es": "Pierna izquierda de robot",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/b7/FO76_armor_robot_heavy_legs.png/revision/latest/scale-to-width-down/256?cb=20220107143250",
+   "wiki": "https://fallout.fandom.com/wiki/Robot_armor_(Fallout_76)"
+  },
+  {
+   "id": "robot_right_leg",
+   "section": "robot",
+   "en": "Robot right leg",
+   "es": "Pierna derecha de robot",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/b/b7/FO76_armor_robot_heavy_legs.png/revision/latest/scale-to-width-down/256?cb=20220107143250",
+   "wiki": "https://fallout.fandom.com/wiki/Robot_armor_(Fallout_76)"
+  },
+  {
+   "id": "secret_service_helmet",
+   "section": "secret_service",
+   "en": "Secret Service helmet",
+   "es": "Casco del servicio secreto",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/8/88/FO76WL_armor_Secret_Service_helmet.png/revision/latest/scale-to-width-down/256?cb=20220110113747",
+   "wiki": "https://fallout.fandom.com/wiki/Secret_Service_armor"
+  },
+  {
+   "id": "secret_service_torso",
+   "section": "secret_service",
+   "en": "Secret Service chest piece",
+   "es": "Torso del servicio secreto",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/0/07/Fo76WL_armor_Secret_Service_torso.png/revision/latest/scale-to-width-down/256?cb=20220108204006",
+   "wiki": "https://fallout.fandom.com/wiki/Secret_Service_armor"
+  },
+  {
+   "id": "secret_service_left_arm",
+   "section": "secret_service",
+   "en": "Secret Service left arm",
+   "es": "Brazo izquierdo del servicio secreto",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/7/72/Fo76WL_armor_Secret_Service_arms.png/revision/latest/scale-to-width-down/256?cb=20220108204008",
+   "wiki": "https://fallout.fandom.com/wiki/Secret_Service_armor"
+  },
+  {
+   "id": "secret_service_right_arm",
+   "section": "secret_service",
+   "en": "Secret Service right arm",
+   "es": "Brazo derecho del servicio secreto",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/7/72/Fo76WL_armor_Secret_Service_arms.png/revision/latest/scale-to-width-down/256?cb=20220108204008",
+   "wiki": "https://fallout.fandom.com/wiki/Secret_Service_armor"
+  },
+  {
+   "id": "secret_service_left_leg",
+   "section": "secret_service",
+   "en": "Secret Service left leg",
+   "es": "Pierna izquierda del servicio secreto",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/f/f1/Fo76WL_armor_Secret_Service_legs.png/revision/latest/scale-to-width-down/256?cb=20220108204008",
+   "wiki": "https://fallout.fandom.com/wiki/Secret_Service_armor"
+  },
+  {
+   "id": "secret_service_right_leg",
+   "section": "secret_service",
+   "en": "Secret Service right leg",
+   "es": "Pierna derecha del servicio secreto",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/f/f1/Fo76WL_armor_Secret_Service_legs.png/revision/latest/scale-to-width-down/256?cb=20220108204008",
+   "wiki": "https://fallout.fandom.com/wiki/Secret_Service_armor"
+  },
+  {
+   "id": "solar_helmet",
+   "section": "solar",
+   "en": "Vault 94 scout armor mask",
+   "es": "Máscara de armadura de scout del Refugio 94",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/2/2f/FO76NW_vault_94_scout_mask.png/revision/latest/scale-to-width-down/256?cb=20210520113119",
+   "wiki": "https://fallout.fandom.com/wiki/Solar_armor"
+  },
+  {
+   "id": "solar_torso",
+   "section": "solar",
+   "en": "Solar armor chest piece",
+   "es": "Coraza de armadura solar",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/9/9a/FO76NW_vault_94_scout_torso.png/revision/latest/scale-to-width-down/256?cb=20210520113154",
+   "wiki": "https://fallout.fandom.com/wiki/Solar_armor"
+  },
+  {
+   "id": "solar_left_arm",
+   "section": "solar",
+   "en": "Solar armor left arm",
+   "es": "Brazo izquierdo de armadura solar",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/d/d2/FO76NW_vault_94_scout_arms.png/revision/latest/scale-to-width-down/256?cb=20210520113233",
+   "wiki": "https://fallout.fandom.com/wiki/Solar_armor"
+  },
+  {
+   "id": "solar_right_arm",
+   "section": "solar",
+   "en": "Solar armor right arm",
+   "es": "Brazo derecho de armadura solar",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/d/d2/FO76NW_vault_94_scout_arms.png/revision/latest/scale-to-width-down/256?cb=20210520113233",
+   "wiki": "https://fallout.fandom.com/wiki/Solar_armor"
+  },
+  {
+   "id": "solar_left_leg",
+   "section": "solar",
+   "en": "Solar armor left leg",
+   "es": "Pierna izquierda de armadura solar",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/5d/FO76NW_vault_94_scout_legs.png/revision/latest/scale-to-width-down/256?cb=20210520113316",
+   "wiki": "https://fallout.fandom.com/wiki/Solar_armor"
+  },
+  {
+   "id": "solar_right_leg",
+   "section": "solar",
+   "en": "Solar armor right leg",
+   "es": "Pierna derecha de armadura solar",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/5d/FO76NW_vault_94_scout_legs.png/revision/latest/scale-to-width-down/256?cb=20210520113316",
+   "wiki": "https://fallout.fandom.com/wiki/Solar_armor"
+  },
+  {
+   "id": "thorn_helmet",
+   "section": "thorn",
+   "en": "Vault 94 scout armor mask",
+   "es": "Máscara de armadura de scout del Refugio 94",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/2/2f/FO76NW_vault_94_scout_mask.png/revision/latest/scale-to-width-down/256?cb=20210520113119",
+   "wiki": "https://fallout.fandom.com/wiki/Thorn_armor"
+  },
+  {
+   "id": "thorn_torso",
+   "section": "thorn",
+   "en": "Thorn armor chest piece",
+   "es": "Coraza de armadura con púas",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/9/9a/FO76NW_vault_94_scout_torso.png/revision/latest/scale-to-width-down/256?cb=20210520113154",
+   "wiki": "https://fallout.fandom.com/wiki/Thorn_armor"
+  },
+  {
+   "id": "thorn_left_arm",
+   "section": "thorn",
+   "en": "Thorn armor left arm",
+   "es": "Brazo izquierdo de armadura con púas",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/d/d2/FO76NW_vault_94_scout_arms.png/revision/latest/scale-to-width-down/256?cb=20210520113233",
+   "wiki": "https://fallout.fandom.com/wiki/Thorn_armor"
+  },
+  {
+   "id": "thorn_right_arm",
+   "section": "thorn",
+   "en": "Thorn armor right arm",
+   "es": "Brazo derecho de armadura con púas",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/d/d2/FO76NW_vault_94_scout_arms.png/revision/latest/scale-to-width-down/256?cb=20210520113233",
+   "wiki": "https://fallout.fandom.com/wiki/Thorn_armor"
+  },
+  {
+   "id": "thorn_left_leg",
+   "section": "thorn",
+   "en": "Thorn armor left leg",
+   "es": "Pierna izquierda de armadura con púas",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/5d/FO76NW_vault_94_scout_legs.png/revision/latest/scale-to-width-down/256?cb=20210520113316",
+   "wiki": "https://fallout.fandom.com/wiki/Thorn_armor"
+  },
+  {
+   "id": "thorn_right_leg",
+   "section": "thorn",
+   "en": "Thorn armor right leg",
+   "es": "Pierna derecha de armadura con púas",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/5/5d/FO76NW_vault_94_scout_legs.png/revision/latest/scale-to-width-down/256?cb=20210520113316",
+   "wiki": "https://fallout.fandom.com/wiki/Thorn_armor"
+  },
+  {
+   "id": "trapper_helmet",
+   "section": "trapper",
+   "en": "Trapper helmet",
+   "es": "Casco de trampero",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/6e/FO76_headgear_trapperhelm.webp/revision/latest/scale-to-width-down/256?cb=20210421054521",
+   "wiki": "https://fallout.fandom.com/wiki/Trapper_armor_(Fallout_76)"
+  },
+  {
+   "id": "trapper_torso",
+   "section": "trapper",
+   "en": "Trapper chest piece",
+   "es": "Torso de trampero",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/e/e9/FO76_armor_trapper_torso.png/revision/latest/scale-to-width-down/256?cb=20210726155450",
+   "wiki": "https://fallout.fandom.com/wiki/Trapper_armor_(Fallout_76)"
+  },
+  {
+   "id": "trapper_left_arm",
+   "section": "trapper",
+   "en": "Trapper left arm",
+   "es": "Brazo izquierdo de trampero",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/65/FO76_armor_trapper_arms.png/revision/latest/scale-to-width-down/256?cb=20210726155442",
+   "wiki": "https://fallout.fandom.com/wiki/Trapper_armor_(Fallout_76)"
+  },
+  {
+   "id": "trapper_right_arm",
+   "section": "trapper",
+   "en": "Trapper right arm",
+   "es": "Brazo derecho de trampero",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/65/FO76_armor_trapper_arms.png/revision/latest/scale-to-width-down/256?cb=20210726155442",
+   "wiki": "https://fallout.fandom.com/wiki/Trapper_armor_(Fallout_76)"
+  },
+  {
+   "id": "trapper_left_leg",
+   "section": "trapper",
+   "en": "Trapper left leg",
+   "es": "Pierna izquierda de trampero",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/7/79/FO76_armor_trapper_legs.png/revision/latest/scale-to-width-down/256?cb=20210726155446",
+   "wiki": "https://fallout.fandom.com/wiki/Trapper_armor_(Fallout_76)"
+  },
+  {
+   "id": "trapper_right_leg",
+   "section": "trapper",
+   "en": "Trapper right leg",
+   "es": "Pierna derecha de trampero",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/7/79/FO76_armor_trapper_legs.png/revision/latest/scale-to-width-down/256?cb=20210726155446",
+   "wiki": "https://fallout.fandom.com/wiki/Trapper_armor_(Fallout_76)"
+  },
+  {
+   "id": "urban_scout_helmet",
+   "section": "urban_scout",
+   "en": "Urban scout armor mask",
+   "es": "Máscara de armadura de scout urbano",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/4/4f/Fallout_76_Scout_Armor_Mask.png/revision/latest/scale-to-width-down/256?cb=20181130211025",
+   "wiki": "https://fallout.fandom.com/wiki/Urban_scout_armor"
+  },
+  {
+   "id": "urban_scout_torso",
+   "section": "urban_scout",
+   "en": "Urban scout armor chest piece",
+   "es": "Coraza de armadura de scout urbano",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/2/2a/FO76_armor_urban_torso.png/revision/latest/scale-to-width-down/256?cb=20210516150246",
+   "wiki": "https://fallout.fandom.com/wiki/Urban_scout_armor"
+  },
+  {
+   "id": "urban_scout_left_arm",
+   "section": "urban_scout",
+   "en": "Urban scout armor left arm",
+   "es": "Brazo izquierdo de armadura de scout urbano",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/cb/FO76_armor_urban_arms.png/revision/latest/scale-to-width-down/256?cb=20210517133538",
+   "wiki": "https://fallout.fandom.com/wiki/Urban_scout_armor"
+  },
+  {
+   "id": "urban_scout_right_arm",
+   "section": "urban_scout",
+   "en": "Urban scout armor right arm",
+   "es": "Brazo derecho de armadura de scout urbano",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/cb/FO76_armor_urban_arms.png/revision/latest/scale-to-width-down/256?cb=20210517133538",
+   "wiki": "https://fallout.fandom.com/wiki/Urban_scout_armor"
+  },
+  {
+   "id": "urban_scout_left_leg",
+   "section": "urban_scout",
+   "en": "Urban scout armor left leg",
+   "es": "Pierna izquierda de armadura de scout urbano",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/c0/FO76_armor_urban_legs.png/revision/latest/scale-to-width-down/256?cb=20210517160506",
+   "wiki": "https://fallout.fandom.com/wiki/Urban_scout_armor"
+  },
+  {
+   "id": "urban_scout_right_leg",
+   "section": "urban_scout",
+   "en": "Urban scout armor right leg",
+   "es": "Pierna derecha de armadura de scout urbano",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/c/c0/FO76_armor_urban_legs.png/revision/latest/scale-to-width-down/256?cb=20210517160506",
+   "wiki": "https://fallout.fandom.com/wiki/Urban_scout_armor"
+  },
+  {
+   "id": "wood_helmet",
+   "section": "wood",
+   "en": "Wood helmet",
+   "es": "Casco de armadura de madera",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/7/7e/FO76_armor_wood_helmet.png/revision/latest/scale-to-width-down/256?cb=20210726152456",
+   "wiki": "https://fallout.fandom.com/wiki/Wood_armor"
+  },
+  {
+   "id": "wood_torso",
+   "section": "wood",
+   "en": "Wood chest piece",
+   "es": "Torso de madera",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/d/df/FO76_armor_wood_torso.png/revision/latest/scale-to-width-down/256?cb=20210726151323",
+   "wiki": "https://fallout.fandom.com/wiki/Wood_armor"
+  },
+  {
+   "id": "wood_left_arm",
+   "section": "wood",
+   "en": "Wood left arm",
+   "es": "Brazo izquierdo de madera",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/6d/FO76_armor_wood_arms.png/revision/latest/scale-to-width-down/256?cb=20210726151836",
+   "wiki": "https://fallout.fandom.com/wiki/Wood_armor"
+  },
+  {
+   "id": "wood_right_arm",
+   "section": "wood",
+   "en": "Wood right arm",
+   "es": "Brazo derecho de madera",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/6/6d/FO76_armor_wood_arms.png/revision/latest/scale-to-width-down/256?cb=20210726151836",
+   "wiki": "https://fallout.fandom.com/wiki/Wood_armor"
+  },
+  {
+   "id": "wood_left_leg",
+   "section": "wood",
+   "en": "Wood left leg",
+   "es": "Pierna izquierda de madera",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/f/f1/FO76_armor_wood_legs.png/revision/latest/scale-to-width-down/256?cb=20210726153237",
+   "wiki": "https://fallout.fandom.com/wiki/Wood_armor"
+  },
+  {
+   "id": "wood_right_leg",
+   "section": "wood",
+   "en": "Wood right leg",
+   "es": "Pierna derecha de madera",
+   "esSource": "wiki",
+   "image": "https://static.wikia.nocookie.net/fallout/images/f/f1/FO76_armor_wood_legs.png/revision/latest/scale-to-width-down/256?cb=20210726153237",
+   "wiki": "https://fallout.fandom.com/wiki/Wood_armor"
+  }
+ ]
+}
